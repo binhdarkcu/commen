@@ -12,7 +12,7 @@
     <title>Commen</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="asset/css/bootstrap.min.css" rel="stylesheet">
+    <link href="asset/css/bootstrap.css" rel="stylesheet">
 
     <!-- Font Awesome CSS -->
     <link href="css/font-awesome.min.css" rel="stylesheet">

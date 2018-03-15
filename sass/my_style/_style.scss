@@ -16,6 +16,18 @@ header {
       .navbar-header {
         position: relative;
 
+        .navbar-brand {
+          display: table;
+          margin: auto;
+          width: 100%;
+          position: absolute;
+          z-index: -1;
+          top: 0;
+
+          img {
+            margin: auto;
+          }
+        }
 
       }
 
@@ -42,6 +54,18 @@ header {
 
     }
 
+    .signUpFree .signupBox .orangeBox {
+      display: none;
+    }
+
+  }
+
+}
+
+@media screen and (min-width: 1024px) {
+
+  header .navbar-default .navbar-header a.cartIcon {
+    display: none;
   }
 
 }

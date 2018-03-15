@@ -5,6 +5,16 @@ header {
     .navbar-default {
         background: #fff;
         padding: 15px 0 10px;
+        a.cartIcon {
+            background: url('../images/cart-icon.png') no-repeat;
+            width: 30px;
+            height: 30px;
+            background-size: 30px;
+            padding-right: 0;
+            margin-left: 22px;
+            margin-top: 5px;
+            display: inline-block;
+        }
         &.navbar-shrink{
             background: #fff;
             padding:5px 0;
@@ -23,15 +33,6 @@ header {
                     font-size: 14px;
                     color: #000;
                     padding: 15px 30px;
-                }
-                a.cartIcon {
-                    background: url('../images/cart-icon.png') no-repeat;
-                    width: 30px;
-                    height: 30px;
-                    background-size: 30px;
-                    padding-right: 0;
-                    margin-left: 22px;
-                    margin-top: 5px;
                 }
             }
         }

@@ -33,6 +33,10 @@ header {
                     font-size: 14px;
                     color: #000;
                     padding: 15px 30px;
+                    &:hover {
+                        color: #fff;
+                        background: #fd8204;
+                    }
                 }
             }
         }

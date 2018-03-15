@@ -1,0 +1,105 @@
+.carousel-container {
+	width: 100%;
+	overflow: hidden;
+}
+
+#icarousel {
+	width: 490px;
+	height: 400px;
+	position: relative;
+	margin: 10px auto;
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	-o-transform-style: preserve-3d;
+	-ms-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	-webkit-perspective: 1000px;
+	-moz-perspective: 1000px;
+	-o-perspective: 1000px;
+	-ms-perspective: 1000px;
+	perspective: 1000px;
+}
+
+#icarousel div.slide {
+	border-radius: 4px;
+	border: 2px #000 solid;
+	box-shadow:2px 2px 8px #000;
+	width: 480px;
+	height: 360px;
+}
+
+/* The Navigation buttons in the Slider */
+svg {
+	background:url(/modules/mod_icarousel/img/pause.png) no-repeat;
+	background-size: 50%;
+	background-position: center;
+	transition: 2s;	
+}
+svg:hover {
+	background:url(/modules/mod_icarousel/img/pause_hover.png) no-repeat;
+	background-size: 50%;
+	background-position: center;
+	transition: 0.5s;	
+}
+a.iCarouselNav {
+	display: block;
+	position: absolute;
+	top: 178px;
+	width: 43px;
+	height: 43px;
+	background: url(/modules/mod_icarousel/img/arrows.png) no-repeat;
+	z-index: 1000;
+	text-indent: -9999px;
+}
+
+a#iCarouselPrev {
+	left: 10px;
+	background-position: left top;
+}
+
+a#iCarouselPrev:hover {
+	background-position: left bottom;
+}
+
+a#iCarouselNext {
+	right: 10px;
+	background-position: right top;
+}
+
+a#iCarouselNext:hover {
+	background-position: right bottom;
+}
+#iCarousel-preloader {
+	position: absolute;
+	z-index: 1000;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	border: #000 1px solid;
+	border-color: rgba(0,0,0,0.6);
+	padding: 1px;
+	width: 150px;
+	height: 3px;
+}
+#iCarousel-preloader div {
+	float: left;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	height: 3px;
+	background: #000;
+	background: rgba(0,0,0,0.6);
+	width: 0px;
+}
+
+/* The timer in the Slider */
+#iCarousel-timer {
+	position: absolute;
+	z-index: 1000;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+#iCarousel-timer div {
+	border-radius: 3px;
+}

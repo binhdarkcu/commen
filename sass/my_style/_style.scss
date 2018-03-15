@@ -73,7 +73,7 @@ header {
 /* end header */
 
 .btn-style {
-  @include Algerian(25px);
+  @include GothamBold(25px);
   color: $orange;
   padding: 10px 25px;
   display: table;

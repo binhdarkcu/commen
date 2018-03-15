@@ -29,11 +29,9 @@
 
                 <div class="slider-content">
                     <div class="col-md-12 text-center">
-                        <h1 class="animated1">
-                          <span>Welcome to <strong>Fame</strong></span>
-                        </h1>
-                        <p class="animated2">Generate a flood of new business with the<br> power of a digital media platform</p>
-                        <a href="#feature" class="page-scroll btn btn-primary animated3">Read More</a>
+                        <p class="animated2">“Only those who risk going too far, can possibly ﬁnd out how far one can go”</p>
+                        <span class="animated2">T.S Eliot</span>
+                        <a href="#feature" class="page-scroll btn btn-primary animated1">SHOP THE NEW COLLECTION</a>
                     </div>
                 </div>
             </div>
@@ -43,12 +41,9 @@
                 <img class="img-responsive" src="images//galaxy.jpg" alt="slider">
                 <div class="slider-content">
                     <div class="col-md-12 text-center">
-                        <h1 class="animated2">
-                            <span>The way of <strong>Success</strong></span>
-                        </h1>
-                        <p class="animated1">At vero eos et accusamus et iusto odio dignissimos<br> ducimus qui blanditiis praesentium voluptatum</p>
-                         <a class="animated3 slider btn btn-primary btn-min-block" href="#">Get Now</a><a class="animated3 slider btn btn-default btn-min-block" href="#">Live Demo</a>
-
+                        <p class="animated2">“Only those who risk going too far, can possibly ﬁnd out how far one can go”</p>
+                        <span class="animated2">T.S Eliot</span>
+                        <a href="#feature" class="page-scroll btn btn-primary animated1">SHOP THE NEW COLLECTION</a>
                     </div>
                 </div>
             </div>
@@ -57,12 +52,6 @@
         <!-- Carousel inner end-->
 
         <!-- Controls -->
-        <a class="left carousel-control" href="#main-slide" data-slide="prev">
-            <span><i class="fa fa-angle-left"></i></span>
-        </a>
-        <a class="right carousel-control" href="#main-slide" data-slide="next">
-            <span><i class="fa fa-angle-right"></i></span>
-        </a>
     </div>
     <!-- /carousel -->
 </section>

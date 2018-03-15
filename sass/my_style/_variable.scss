@@ -1,0 +1,13 @@
+
+
+
+@mixin Algerian( $value, $lineheight:1.2 ) {
+	font-family: 'Algerian', Arial, sans-serif;
+	font-size: $value;
+	line-height: $lineheight;
+	font-weight: normal;
+}
+/* colors */
+$orange: #fd8204;
+$gray: #999999;
+$yellow-1: #f5dc6a;

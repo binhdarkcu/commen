@@ -1,0 +1,30 @@
+footer {
+  margin-top: 40px;
+
+  p {
+    @include Algerian(19px);
+    color: $gray;
+    text-transform: uppercase;
+
+    i.fa {
+      font-size: 25px;
+      display: inline-block;
+      margin-right: 8px;
+    }
+
+  }
+
+  .col-last {
+
+    p:first-child {
+      margin-bottom: 13px;
+    }
+
+    p {
+      display: flex;
+      justify-content: flex-end;
+    }
+
+  }
+
+}

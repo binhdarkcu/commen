@@ -1,0 +1,59 @@
+/* begin header */
+header {
+
+  nav.navbar-fixed-top {
+    z-index: 1050;
+  }
+
+}
+
+@media screen and (max-width: 1024px) {
+
+  header {
+
+    nav {
+
+      .navbar-header {
+        position: relative;
+
+
+      }
+
+      &.navbar-default .navbar-toggle {
+        margin-right: 0;
+        background: transparent;
+        border: none;
+
+        .icon-bar {
+          background: #000;
+        }
+
+        &:hover, &:focus {
+          background: transparent;
+          border: none;
+
+          .icon-bar {
+            background: #000;
+          }
+
+        }
+
+      }
+
+    }
+
+  }
+
+}
+
+/* end header */
+
+.btn-style {
+  @include Algerian(25px);
+  color: $orange;
+  padding: 10px 25px;
+  display: table;
+  margin: auto;
+  text-transform: uppercase;
+  background: $yellow-1;
+}

@@ -14,11 +14,11 @@
         <!-- Carousel inner -->
         <div class="carousel-inner">
             <div class="item active">
-                <img class="img-responsive" src="images/banner.jpg" alt="slider">
-                <div class="slider-content">
+                <div class="slider-content container">
                     <div class="col-md-12 text-center">
                         <p class="animated2">“Only those who risk going too far, can possibly ﬁnd out how far one can go”</p>
-                        <a href="#feature" class="page-scroll btn btn-primary animated1">Read More</a>
+                        <span class="animated2">T.S Eliot</span>
+                        <a href="#feature" class="page-scroll btn btn-primary animated1">SHOP THE NEW COLLECTION</a>
                     </div>
                 </div>
             </div>

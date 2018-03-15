@@ -34,7 +34,7 @@
                     <li>
                         <a class="page-scroll" href="#">TALK TO ME</a>
                     </li>
-                    <li>
+                    <li class="visible-1024">
                         <a class="cartIcon" href="#"></a>
                     </li>
                 </ul>

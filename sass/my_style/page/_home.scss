@@ -1,0 +1,138 @@
+.homepage {
+
+  /* slider */
+  #main-slide.carousel {
+
+    .carousel-indicators li {
+      width: 20px !important;
+      border: 0 !important;
+      height: 20px !important;
+      background: $yellow-1;
+
+      &.active {
+        background: #fd8204;
+      }
+
+    }
+
+    .carousel-inner {
+
+      .item:first-child {
+        background: url('../images/banner.jpg') center no-repeat;
+        background-size: cover;
+
+        .col-md-12 {
+          width: 50%;
+          float: right;
+          position: relative;
+          top: -15%;
+          text-align: left;
+
+            p {
+              @include Algerian(45px);
+              color: $orange;
+              text-align: left;
+              margin-bottom: 25px;
+            }
+
+            span {
+              @include Algerian(25px);
+              text-transform: uppercase;
+              color: $orange;
+              display: block;
+              margin-bottom: 33px;
+            }
+
+            a.btn {
+              @include Algerian(26px);
+              color: #fff;
+              padding: 20px 50px;
+              background: $orange;
+              border-color: transparent;
+
+              &:hover {
+                border: 1px solid #fff;
+                background: transparent;
+              }
+
+            }
+
+        }
+
+
+      }
+
+      .slider-content {
+        right: 0;
+      }
+
+    }
+
+  }
+
+  /* filetr */
+  .section-filter {
+    border-bottom: 11px solid $orange;
+    padding: 50px 0 35px;
+    background: url('../images/filter-bg.png') center no-repeat;
+    background-size: cover;
+
+    h2 {
+      @include Algerian(45px);
+      color: $orange;
+      text-align: center;
+      margin-bottom: 15px;
+    }
+
+    &__main {
+      margin-bottom: 25px;
+
+      &--nav {
+        text-align: center;
+        margin-bottom: 25px;
+
+        a {
+          @include Algerian(25px);
+          color: $orange;
+          margin-right: 40px;
+
+          &:last-child {
+            margin-right: 0;
+          }
+
+        }
+
+      }
+
+      &--content {
+        margin-bottom: 30px;
+
+        .filter-item {
+          border: 9px solid #fff;
+          padding: 16px 18px 20px;
+          text-align: center;
+          background: $yellow-1;
+
+          img {
+            width: 100%;
+            margin-bottom: 30px;
+          }
+
+          p, a {
+            color: #000;
+            @include Algerian(22px);
+          }
+
+          p {
+            margin-bottom: 30px;
+          }
+
+        }
+
+      }
+
+    }
+
+  }
+
+}

@@ -27,3 +27,15 @@ a{text-decoration: none;}
 	color: #fff;
 	padding: 12px 25px;
 }
+
+.visible-1024 {
+	display: none !important;
+}
+
+@media screen and (min-width: 1024px) {
+
+	body .visible-1024 {
+		display: block !important;
+	}
+
+}

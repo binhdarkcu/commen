@@ -64,7 +64,7 @@
 
     <div class="homepage">
       <?php include('./slider.php')?>
-
+<?php include('popup.php')?>
       <!-- <section class="carousel">
           <div class="carousel-container">
               <div id="carousel">
@@ -93,7 +93,7 @@
       	</div>
       </section> -->
       <!-- Filter -->
-       <?php include('popup.php')?>
+
       <section class="section-filter" id="filter">
           <h2>Memoirs</h2>
           <div class="container">
@@ -177,7 +177,7 @@
     <script src="js/contact_me.js"></script>
     <script src="js/velocity.min.js"></script>
     <script src="js/main.js"></script> <!-- Resource jQuery -->
-    
+
     <!-- Custom Theme JavaScript -->
     <script src="js/script.js"></script>
 	<script src="js/class.SiteMain.js"></script>

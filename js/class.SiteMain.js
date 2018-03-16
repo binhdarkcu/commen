@@ -16,11 +16,9 @@ var SiteMain = (function() {
 	}
 	function open_popup(divName) {
 		$(divName).css({'visibility':'visible', 'display': 'table'})
-		$('body').addClass('popup-opening')
 	}
 	function close_popup(divName) {
 		$(divName).css({'visibility':'hidden', 'display': 'none'})
-		$('body').removeClass('popup-opening')
 	}
 	return {
 		init:init,

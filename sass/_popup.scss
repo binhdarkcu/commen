@@ -1,11 +1,15 @@
-.homepage .cd-quick-view {
+body .cd-quick-view {
   @include objAbsoluteMiddle();
-  padding: 39px 42px;
-  border: 8px solid $orange;
-  background: #fff;
   width: 90%;
   z-index: 99999;
   display: none;
+  position: fixed;
+
+  .cd-wrapper-all {
+    padding: 39px 42px;
+    border: 8px solid $orange;
+    background: #fff;
+  }
 
   .cd-slider-wrapper {
     width: 40%;
@@ -120,7 +124,7 @@
 
   .popup-opening {
 
-    .section-filter, #page-top, footer, header {
+    .section-filter, #page-top, footer, header, .homepage {
       display: none !important;
     }
 
@@ -136,12 +140,20 @@
 
   }
 
-  .homepage .cd-quick-view .cd-slider-wrapper, .homepage .cd-quick-view .cd-item-info {
+  .cd-quick-view .cd-slider li img {
+    max-width: none;
+  }
+
+  body .cd-quick-view .cd-slider-wrapper, body .cd-quick-view .cd-item-info {
     width: 100%;
   }
-  .homepage .cd-quick-view {
+  body .cd-quick-view {
     position: relative;
-    margin: 100px auto;
     @include clearObjAbsoluteMiddle();
+    margin: 100px auto;
+
+    .cd-wrapper-all {
+    }
+
   }
 }

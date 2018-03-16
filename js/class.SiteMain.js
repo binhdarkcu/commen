@@ -2,7 +2,6 @@
 var SiteMain = (function() {
 	function init(){
 		carousel_3d();
-		open_popup();
 	}
 
 	function createRadio(){
@@ -11,42 +10,45 @@ var SiteMain = (function() {
 
 	function openPopup(idDiv){
 		$('.result_question').css('display','none')
-		$(idDiv).css('display','block');
+		$(idDiv).css({'visibility':'visible','display':'block'});
 	}
 	function closePopup(idDiv){
-		$(idDiv).css('display','none');
+		$(idDiv).css({'visibility':'hidden','display':'none'});
 	}
-	function open_popup() {
-		$('.carousel-container').on('click', '.carousel-item', function() {
-			console.log('1')
-			$('.cd-quick-view').css({'visibility':'visible', 'display': 'table'})
-		})
-	}
-	function close_popup() {
-			$(this).css({'visibility':'hidden', 'display': 'none'})
-		}
 	function carousel_3d() {
+		var separation = 230;
+		var sizeMultiplier = 0.9;
+		var flankingItems = 3;
+		if($(window).width() < 640) {
+			separation = 140
+			flankingItems = 2
+		}
 		var carousel = $("#carousel1").waterwheelCarousel({
-      flankingItems: 3
+      		flankingItems: flankingItems,
+			separation: separation,
+			sizeMultiplier: sizeMultiplier,
+			opacityMultiplier: 1,
+			clickedCenter: function($clickedItem) {
+		      // $clickedItem is a jQuery wrapped object describing the image that was clicked.
+			  openPopup('#viewProduct')
+		    }
 		})
 
-					$('.prev').bind('click', function () {
-		          carousel.prev();
-		          return false
-		        });
+		$('.prev').bind('click', function () {
+          carousel.prev();
+          return false
+        });
 
-		        $('.next').bind('click', function () {
-		          carousel.next();
-		          return false;
-		        });
+        $('.next').bind('click', function () {
+          carousel.next();
+          return false;
+        });
 	}
 
 	return {
 		init:init,
 		openPopup:openPopup,
-		closePopup:closePopup,
-		open_popup:open_popup,
-		close_popup:close_popup
+		closePopup:closePopup
 	}
 
 })();

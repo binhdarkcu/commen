@@ -1,4 +1,4 @@
-<div class="cd-quick-view">
+<div class="cd-quick-view" id="viewProduct">
 
     <div class="cd-wrapper-all clearfix">
       <div class="cd-slider-wrapper">

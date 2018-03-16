@@ -29,6 +29,7 @@ body .cd-quick-view {
     h2 {
       margin-bottom: 25px;
       @include Algerian(25px);
+      text-align: left;
     }
 
     span {
@@ -45,6 +46,9 @@ body .cd-quick-view {
       width: 50%;
       position: relative;
       margin-bottom: 37px;
+      span{
+          margin-bottom: 5px;
+      }
 
       &:after {
         content: '';

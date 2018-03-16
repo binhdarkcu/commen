@@ -17,7 +17,7 @@ $fontArial12: normal 11px/1.2 'GothamBook', Arial, Helvetica, sans-serif;
 $colorBlack:#000;
 
 @mixin Algerian( $value, $lineheight:1.2 ) {
-	font-family: 'Algerian', Arial, sans-serif;
+	font-family: 'GothamBook', Arial, sans-serif;
 	font-size: $value;
 	line-height: $lineheight;
 	font-weight: normal;

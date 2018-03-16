@@ -43,6 +43,6 @@ var cbpAnimatedHeader = (function() {
 		return window.pageYOffset || docElem.scrollTop;
 	}
 
-	init();
+	//init();
 
 })();

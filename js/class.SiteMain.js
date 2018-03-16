@@ -14,10 +14,20 @@ var SiteMain = (function() {
 	function closePopup(idDiv){
 		$(idDiv).css('display','none');
 	}
+	function open_popup(divName) {
+		$(divName).css({'visibility':'visible', 'display': 'table'})
+		$('body').addClass('popup-opening')
+	}
+	function close_popup(divName) {
+		$(divName).css({'visibility':'hidden', 'display': 'none'})
+		$('body').removeClass('popup-opening')
+	}
 	return {
 		init:init,
 		openPopup:openPopup,
-		closePopup:closePopup
+		closePopup:closePopup,
+		open_popup:open_popup,
+		close_popup:close_popup
 	}
 
 })();

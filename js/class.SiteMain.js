@@ -13,7 +13,7 @@ var SiteMain = (function() {
 					separation = 140
 					flankingItems = 2
 				}
-				$("#carousel1").waterwheelCarousel({
+				var carousel2 = $("#carousel1").waterwheelCarousel({
 		      		flankingItems: flankingItems,
 					separation: separation,
 					sizeMultiplier: sizeMultiplier,
@@ -23,6 +23,15 @@ var SiteMain = (function() {
 					  openPopup('#viewProduct')
 				    }
 				})
+				$('.prev').bind('click', function () {
+				  carousel2.prev();
+				  return false
+				});
+
+				$('.next').bind('click', function () {
+				  carousel2.next();
+				  return false;
+				});
 			}, 500);
 		});
 	}

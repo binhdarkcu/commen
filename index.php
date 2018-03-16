@@ -65,33 +65,44 @@
     <div class="homepage">
       <?php include('./slider.php')?>
 <?php include('popup.php')?>
-      <!-- <section class="carousel">
-          <div class="carousel-container">
-              <div id="carousel">
-                <div class="carousel-feature">
-                  <a href="#"><img class="carousel-image" alt="Image Caption" src="images/product1.jpg"></a>
+      <section class="carousel container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="carousel-container">
+                <div id="carousel1">
+                  <div class="carousel-item">
+                    <a href="#"><img class="carousel-image" alt="Image Caption" src="images/product1.jpg"></a>
+                  </div>
+                  <div class="carousel-item">
+                    <a href="#"><img class="carousel-image" alt="Image Caption" src="images/product1.jpg"></a>
+                  </div>
+                  <div class="carousel-item">
+                    <a href="#"><img class="carousel-image" alt="Image Caption" src="images/product1.jpg"></a>
+                  </div>
+                  <div class="carousel-item">
+                    <a href="#"><img class="carousel-image" alt="Image Caption" src="images/product1.jpg"></a>
+                  </div>
+                  <div class="carousel-item">
+                    <a href="#"><img class="carousel-image" alt="Image Caption" src="images/product1.jpg"></a>
+                  </div>
+                  <div class="carousel-item">
+                    <a href="#"><img class="carousel-image" alt="Image Caption" src="images/product1.jpg"></a>
+                  </div>
+                  <div class="carousel-item">
+                    <a href="#"><img class="carousel-image" alt="Image Caption" src="images/product1.jpg"></a>
+                  </div>
                 </div>
-                <div class="carousel-feature">
-                  <a href="#"><img class="carousel-image" alt="Image Caption" src="images/product1.jpg"></a>
-                </div>
-                <div class="carousel-feature">
-                  <a href="#"><img class="carousel-image" alt="Image Caption" src="images/product1.jpg"></a>
-                </div>
-                <div class="carousel-feature">
-                  <a href="#"><img class="carousel-image" alt="Image Caption" src="images/product1.jpg"></a>
-                </div>
-                <div class="carousel-feature">
-                  <a href="#"><img class="carousel-image" alt="Image Caption" src="images/product1.jpg"></a>
-                </div>
-                <div class="carousel-feature">
-                  <a href="#"><img class="carousel-image" alt="Image Caption" src="images/product1.jpg"></a>
-                </div>
-                <div class="carousel-feature">
-                  <a href="#"><img class="carousel-image" alt="Image Caption" src="images/product1.jpg"></a>
-                </div>
-              </div>
-      	</div>
-      </section> -->
+                <a class="prev arr"></a>
+                <a class="next arr"></a>
+        	  </div>
+          </div>
+          <div class="col-md-12 row-title">
+            <h2>COMMEN TEE</h2>
+            <a href="#" class="btn-style">shop now</a>
+          </div>
+        </div>
+
+      </section>
       <!-- Filter -->
 
       <section class="section-filter" id="filter">
@@ -169,8 +180,9 @@
     <script src="js/jquery.appear.js"></script>
     <script src="js/cbpAnimatedHeader.js"></script>
     <script src="js/owl.carousel.min.js"></script>
-	<script src="js/jquery.fitvids.js"></script>
-	<script src="js/styleswitcher.js"></script>
+  	<script src="js/jquery.fitvids.js"></script>
+  	<script src="js/styleswitcher.js"></script>
+    <script src="js/jquery.waterwheelCarousel.min.js"></script>
 
     <!-- Contact Form JavaScript -->
     <script src="js/jqBootstrapValidation.js"></script>

@@ -70,19 +70,62 @@
 
   }
 
+  /* slider 2 */
+  .carousel {
+    position: relative;
+
+    .row-title {
+      margin-bottom: 50px;
+    }
+
+    .arr {
+      position: absolute;
+      width: 28px;
+      height: 52px;
+      background-size: cover;
+      top: 50%;
+      cursor: pointer;
+      margin-top: -26px;
+
+      &.prev {
+        background: url('../images/arr-prev.png') no-repeat center;
+        background-size: cover;
+      }
+
+      &.next {
+        background: url('../images/arr-next.png') no-repeat center;
+        background-size: cover;
+        right: 0;
+      }
+
+    }
+
+    #carousel1 {
+      min-height: 350px;
+      height: 100%;
+      position:relative;
+      clear:both;
+      overflow:hidden;
+      width: 90%;
+      margin: auto;
+
+      img {
+        visibility:hidden; /* hide images until carousel can handle them */
+        cursor:pointer; /* otherwise it's not as obvious items can be clicked */
+        border: 16px solid $yellow-1;
+      }
+
+    }
+
+  }
+
+
   /* filetr */
   .section-filter {
     border-bottom: 11px solid $orange;
     padding: 50px 0 35px;
     background: url('../images/filter-bg.png') center no-repeat;
     background-size: cover;
-
-    h2 {
-      @include GothamBold(45px);
-      color: $orange;
-      text-align: center;
-      margin-bottom: 15px;
-    }
 
     &__main {
       margin-bottom: 25px;
@@ -133,6 +176,13 @@
 
     }
 
+  }
+
+  h2 {
+    @include GothamBold(45px);
+    color: $orange;
+    text-align: center;
+    margin-bottom: 15px;
   }
 
 }

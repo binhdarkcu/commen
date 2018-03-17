@@ -28,6 +28,12 @@ a{text-decoration: none;}
 	padding: 12px 25px;
 }
 
+.commonpage {
+	  @include GothamBook(12px);
+	  color: #000;
+	  line-height: 1.5;
+}
+
 .visible-1024 {
 	display: none !important;
 }

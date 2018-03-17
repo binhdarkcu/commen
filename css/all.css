@@ -141,6 +141,14 @@ a {
   color: #fff;
   padding: 12px 25px; }
 
+.commonpage {
+  font-family: 'GothamBook', cursive;
+  font-size: 12px;
+  line-height: 1.1;
+  font-weight: normal;
+  color: #000;
+  line-height: 1.5; }
+
 .visible-1024 {
   display: none !important; }
 
@@ -1354,6 +1362,18 @@ body .cd-quick-view {
     .contactPage .contactForm .contactRow.subject input[type="text"] {
       width: 60%; }
 
+  /* memoirs-page */
+  .homepage.memoirs_page .section-filter__main--content .col-md-4 {
+    width: 50%; }
+
+  .homepage.memoirstitle_page .section-filter .row-2col img:first-of-type {
+    margin-bottom: 30px; }
+
+  /* about-page */
+  .homepage.aboutpage .marginbottom img {
+    width: 100%;
+    margin-bottom: 30px; }
+
   .homepage #main-slide.carousel .carousel-inner .slider-content {
     display: none; }
   .homepage #main-slide.carousel .carousel-inner .item {
@@ -1379,5 +1399,114 @@ body .cd-quick-view {
     width: 37%; }
   footer .customWidthLast {
     width: 37%; } }
+.homepage.aboutpage h2 {
+  padding: 40px 0 35px;
+  margin: 0; }
+.homepage.aboutpage p {
+  margin-bottom: 30px; }
+.homepage.aboutpage .marginbottom {
+  margin-bottom: 60px; }
+.homepage.aboutpage .img-bottom {
+  width: 100%;
+  border-bottom: 10px solid #fd8204;
+  display: inline-block; }
+
+/* MEMOIRS TITLE PAGE */
+.homepage.memoirstitle_page {
+  text-align: center; }
+  .homepage.memoirstitle_page h2 {
+    padding: 40px 0;
+    margin: 0; }
+  .homepage.memoirstitle_page .img-banner {
+    width: 100%; }
+  .homepage.memoirstitle_page .section-filter {
+    padding: 55px 0; }
+    .homepage.memoirstitle_page .section-filter p {
+      margin-bottom: 30px; }
+      .homepage.memoirstitle_page .section-filter p:last-child {
+        margin-bottom: 0; }
+    .homepage.memoirstitle_page .section-filter .row-2col {
+      margin: 20px 0 53px;
+      color: #fd8204;
+      text-align: left; }
+      .homepage.memoirstitle_page .section-filter .row-2col img {
+        width: 100%; }
+      .homepage.memoirstitle_page .section-filter .row-2col h3 {
+        font-family: 'GothamBold', cursive;
+        font-size: 39px;
+        line-height: 1.1;
+        font-weight: normal;
+        line-height: 1.3; }
+      .homepage.memoirstitle_page .section-filter .row-2col span {
+        font-family: 'GothamBold', cursive;
+        font-size: 21px;
+        line-height: 1.1;
+        font-weight: normal;
+        display: inline-block;
+        margin: 10px 0 32px; }
+
+/* MEMOIRS PAGE */
+.homepage.memoirs_page {
+  padding-bottom: 58px;
+  border-bottom: 11px solid #fd8204; }
+  .homepage.memoirs_page h2 {
+    margin: 0;
+    padding: 40px 0 15px;
+    text-transform: uppercase; }
+  .homepage.memoirs_page .section-filter__main {
+    margin-bottom: 0; }
+  .homepage.memoirs_page .section-filter__main--nav {
+    margin-bottom: 54px; }
+    .homepage.memoirs_page .section-filter__main--nav a {
+      font-family: 'GothamBook', cursive;
+      font-size: 23px;
+      line-height: 1.1;
+      font-weight: normal; }
+  .homepage.memoirs_page .section-filter__main--content {
+    margin-bottom: 0; }
+    .homepage.memoirs_page .section-filter__main--content .filter-item {
+      border: 0;
+      padding: 14px 17px 20px;
+      margin-bottom: 27px; }
+      .homepage.memoirs_page .section-filter__main--content .filter-item img {
+        margin-bottom: 25px; }
+      .homepage.memoirs_page .section-filter__main--content .filter-item p {
+        font-family: 'GothamLight', cursive;
+        font-size: 14px;
+        line-height: 1.1;
+        font-weight: normal;
+        width: 80%;
+        margin: 0 auto 30px; }
+      .homepage.memoirs_page .section-filter__main--content .filter-item a {
+        font-family: 'GothamBold', cursive;
+        font-size: 14px;
+        line-height: 1.1;
+        font-weight: normal;
+        text-transform: uppercase; }
+
+.homepage.memoirs_page.products_page {
+  padding-bottom: 0; }
+  .homepage.memoirs_page.products_page .section-filter__main--nav {
+    margn-bottom: 35px; }
+  .homepage.memoirs_page.products_page .products_page-item {
+    margin-bottom: 25px;
+    text-align: center; }
+    .homepage.memoirs_page.products_page .products_page-item img {
+      width: 100%;
+      border: 14px solid #f5dc6a;
+      margin-bottom: 22px; }
+    .homepage.memoirs_page.products_page .products_page-item p {
+      font-family: 'GothamBold', cursive;
+      font-size: 21px;
+      line-height: 1.1;
+      font-weight: normal;
+      color: #fd8204;
+      margin-bottom: 8px; }
+    .homepage.memoirs_page.products_page .products_page-item span {
+      font-family: 'GothamBook', cursive;
+      font-size: 21px;
+      line-height: 1.1;
+      font-weight: normal;
+      color: #000; }
 
 /*# sourceMappingURL=all.css.map */

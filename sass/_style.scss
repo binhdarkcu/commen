@@ -207,6 +207,7 @@ a{text-decoration: none;}
 
           p {
             margin-bottom: 30px;
+			@include GothamLight(22px);
           }
 
         }
@@ -354,7 +355,6 @@ header {
   padding: 10px 25px;
   display: table;
   margin: auto;
-  text-transform: uppercase;
   background: $yellow-1;
   text-decoration: none;
   &:hover{

@@ -44,7 +44,7 @@ Modules - reusable parts of our design
 Main components
 
 -------------------------------- */
-    
+
 @media only screen and (min-width: 1024px) {
   .cd-trigger {
     /* always visible on small devices */
@@ -428,18 +428,22 @@ body .cd-quick-view {
 
     h2 {
       margin-bottom: 25px;
-      @include Algerian(25px);
+      @include GothamBold(25px);
       text-align: left;
+      span {
+          @include GothamBook(25px);
+      }
     }
 
     span {
-      @include Algerian(15px);
+      @include GothamBook(15px);
       display: block;
-
       &.color {
         margin-bottom: 15px;
       }
-
+      b {
+          @include GothamBold(15px);
+      }
     }
 
     .cd-item-select {
@@ -484,7 +488,6 @@ body .cd-quick-view {
         width: 50%;
 
         button {
-          text-transform: uppercase;
           background: $orange;
           color: #fff;
           @include Algerian(15px);
@@ -501,8 +504,16 @@ body .cd-quick-view {
 
       p, li {
         color: $gray;
-        @include Algerian(15px);
-        text-transform: uppercase;
+        @include GothamLight(15px);
+        margin: 0;
+      }
+      p{
+          padding-bottom: 15px;
+      }
+      .item-title{
+          @include GothamBold(15px);
+          color: #999;
+          padding-bottom: 16px;
       }
 
     }

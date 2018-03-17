@@ -13,6 +13,14 @@ $fontArial12: normal 11px/1.2 'GothamBook', Arial, Helvetica, sans-serif;
 	line-height:1.1;
 	font-weight:normal;
 }
+
+@mixin GothamLight( $value ) {
+	font-family: 'GothamLight', cursive;
+	font-size:$value;
+	line-height:1.1;
+	font-weight:normal;
+}
+
 /*COLOR*/
 $colorBlack:#000;
 

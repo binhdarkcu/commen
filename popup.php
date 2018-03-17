@@ -13,10 +13,10 @@
       </div> <!-- cd-slider-wrapper -->
 
       <div class="cd-item-info">
-          <h2>COMMEN PURPLE<br/>£29.99</h2>
-          <span class="color">Colour: Purple</span>
+          <h2>COMMEN PURPLE<br/><span>£29.99</span></h2>
+          <span class="color"><b>Colour:</b> Purple</span>
           <div class="cd-item-select">
-            <span>Size</span>
+            <span><b>Size</b></span>
             <select class="" name="">
               <option value="" selected hidden>Please select</option>
               <option value="M">M</option>
@@ -27,8 +27,10 @@
               <li><button class="add-to-cart">Add to bag</button></li>
           </ul> <!-- cd-item-action -->
           <div class="cd-item-description">
-            <p>Product Details<br/>This is one of our running shirts.<br/>We searched the globe for our favourite technical fabrics.
-            <br/>and when we were happy we got to work on making these.<br/>We hope you like them as much as we do.<br/><br/>So you know, they are:</p>
+            <h3 class="item-title">Product Details</h3>
+            <p>This is one of our running shirts.<br/>We searched the globe for our favourite technical fabrics.
+            <br/>and when we were happy we got to work on making these.<br/>We hope you like them as much as we do.</p>
+            <h3 class="item-title">So you know, they are:</h3>
             <ul>
               <li>– Lightweight & breathable</li>
               <li>– Moisture wicking</li>

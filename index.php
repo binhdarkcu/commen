@@ -84,7 +84,7 @@
               </div>
             </div>
           </div>
-          <a href="#" class="btn-style">see all</a>
+          <a href="#" class="btn-style">See All</a>
       </section>
       <!-- End filter -->
     </div>

@@ -39,6 +39,10 @@ header {
                     }
                     &.cartIcon {
                         padding: 15px;
+                        &:hover {
+                            background: url('../images/cart-icon.png') no-repeat;
+                            background-size: 30px;
+                        }
                     }
                 }
             }

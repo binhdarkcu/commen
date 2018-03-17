@@ -251,7 +251,6 @@ a {
 
 /* filter */
 .section-filter {
-  border-bottom: 11px solid #fd8204;
   padding: 50px 0 35px;
   background: url("../images/filter-bg.png") center no-repeat;
   background-size: cover; }
@@ -395,6 +394,9 @@ header .navbar-default {
       background: #fd8204; }
     header .navbar-default .nav li a.cartIcon {
       padding: 15px; }
+      header .navbar-default .nav li a.cartIcon:hover {
+        background: url("../images/cart-icon.png") no-repeat;
+        background-size: 30px; }
 header .navbar-brand {
   height: auto;
   padding-top: 0;
@@ -452,8 +454,9 @@ header .navbar-brand {
   float: right; }
 
 footer {
-  margin-top: 40px;
-  padding-bottom: 40px; }
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border-top: 11px solid #fd8204; }
   footer a, footer p {
     font-family: 'GothamBold', cursive;
     font-size: 19px;
@@ -1133,7 +1136,8 @@ body .cd-quick-view {
 .contactPage.section-filter {
   min-height: 798px;
   padding-top: 60px;
-  background: url(../images/contact-filter-bg.png) no-repeat top center; }
+  background: url(../images/contact-filter-bg.png) no-repeat top center;
+  background-size: cover; }
 .contactPage h3 {
   font-family: 'GothamBold', cursive;
   font-size: 45px;
@@ -1210,6 +1214,7 @@ body .cd-quick-view {
 
 .productDetail {
   padding-top: 50px;
+  padding-bottom: 25px;
   /* Left Column */
   /* Product Color */ }
   .productDetail #carousel-custom .carousel-inner {
@@ -1319,14 +1324,45 @@ body .cd-quick-view {
         font-weight: normal;
         color: #ff8300; }
   .productDetail .product-information, .productDetail body .cd-quick-view .cd-item-info, body .cd-quick-view .productDetail .cd-item-info {
-    width: 98%; }
+    width: 98%;
+    padding-top: 59px; }
     .productDetail .product-information h2, .productDetail body .cd-quick-view .cd-item-info h2, body .cd-quick-view .productDetail .cd-item-info h2 {
-      font-size: 21px; }
+      font-size: 21px;
+      margin-bottom: 33px; }
+      .productDetail .product-information h2 span, .productDetail body .cd-quick-view .cd-item-info h2 span, body .cd-quick-view .productDetail .cd-item-info h2 span {
+        font-size: 21px; }
+    .productDetail .product-information span, .productDetail body .cd-quick-view .cd-item-info span, body .cd-quick-view .productDetail .cd-item-info span {
+      font-size: 13px; }
     .productDetail .product-information .cd-item-select, .productDetail body .cd-quick-view .cd-item-info .cd-item-select, body .cd-quick-view .productDetail .cd-item-info .cd-item-select {
       width: 65%;
       margin-bottom: 30px; }
-    .productDetail .product-information .cd-item-action li, .productDetail body .cd-quick-view .cd-item-info .cd-item-action li, body .cd-quick-view .productDetail .cd-item-info .cd-item-action li {
-      width: 65%; }
+      .productDetail .product-information .cd-item-select select, .productDetail body .cd-quick-view .cd-item-info .cd-item-select select, body .cd-quick-view .productDetail .cd-item-info .cd-item-select select {
+        font-size: 13px; }
+    .productDetail .product-information .cd-item-action, .productDetail body .cd-quick-view .cd-item-info .cd-item-action, body .cd-quick-view .productDetail .cd-item-info .cd-item-action {
+      margin-bottom: 27px; }
+      .productDetail .product-information .cd-item-action li, .productDetail body .cd-quick-view .cd-item-info .cd-item-action li, body .cd-quick-view .productDetail .cd-item-info .cd-item-action li {
+        width: 65%; }
+    .productDetail .product-information .cd-item-description .item-title, .productDetail body .cd-quick-view .cd-item-info .cd-item-description .item-title, body .cd-quick-view .productDetail .cd-item-info .cd-item-description .item-title, .productDetail .product-information .cd-item-description p, .productDetail body .cd-quick-view .cd-item-info .cd-item-description p, body .cd-quick-view .productDetail .cd-item-info .cd-item-description p {
+      font-size: 13px; }
+    .productDetail .product-information .cd-item-description .item-title, .productDetail body .cd-quick-view .cd-item-info .cd-item-description .item-title, body .cd-quick-view .productDetail .cd-item-info .cd-item-description .item-title {
+      padding-bottom: 15px; }
+
+.relatedProduct h3 {
+  color: #ff8300;
+  font-family: 'GothamBold', cursive;
+  font-size: 13px;
+  line-height: 1.1;
+  font-weight: normal;
+  padding-bottom: 13px; }
+.relatedProduct ul li {
+  display: inline-block;
+  margin-right: 25px; }
+
+.borderLine {
+  width: 96%;
+  border: 1px solid #ccc;
+  display: table;
+  margin: 65px auto 30px; }
 
 @media screen and (min-width: 993px) and (max-width: 1024px) {
   .homepage #main-slide.carousel .carousel-inner .item .col-md-12 a.btn {
@@ -1408,8 +1444,7 @@ body .cd-quick-view {
   margin-bottom: 60px; }
 .homepage.aboutpage .img-bottom {
   width: 100%;
-  border-bottom: 10px solid #fd8204;
-  display: inline-block; }
+  float: left; }
 
 /* MEMOIRS TITLE PAGE */
 .homepage.memoirstitle_page {
@@ -1447,8 +1482,7 @@ body .cd-quick-view {
 
 /* MEMOIRS PAGE */
 .homepage.memoirs_page {
-  padding-bottom: 58px;
-  border-bottom: 11px solid #fd8204; }
+  padding-bottom: 58px; }
   .homepage.memoirs_page h2 {
     margin: 0;
     padding: 40px 0 15px;

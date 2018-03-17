@@ -17,5 +17,6 @@
     </div>
   </div>
   <img src="images/banner.jpg" class="img-responsive img-bottom" alt="">
+  <div class="clear"></div>
 </section>
 <?php include ('footer.php') ?>

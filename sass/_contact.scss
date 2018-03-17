@@ -4,6 +4,7 @@
 		min-height: 798px;
         padding-top: 60px;
         background: url(../images/contact-filter-bg.png) no-repeat top center;
+		background-size: cover;
 	}
     h3 {
         @include GothamBold(45px);

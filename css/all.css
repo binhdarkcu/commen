@@ -704,24 +704,6 @@ Main components
 .cd-item-info .cd-item-action li:first-child {
   margin-left: -4px; }
 
-.cd-item-info .add-to-cart {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  -ms-appearance: none;
-  -o-appearance: none;
-  appearance: none;
-  border-radius: 0.25em;
-  border: none;
-  padding: .6em 1.2em;
-  background-color: #f82f53;
-  color: #ffffff;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  font-family: "PT Sans", sans-serif;
-  font-size: 16px;
-  font-size: 1rem;
-  cursor: pointer; }
-
 .add-content .cd-item-info {
   /* class added at the end of the width animation, used to show the content */
   position: relative;
@@ -831,6 +813,116 @@ Main components
   -moz-transition: -moz-transform .3s 0s, visibility 0s 0s;
   transition: transform .3s 0s, visibility 0s 0s; }
 
+.product-information, body .cd-quick-view .cd-item-info {
+  width: 60%;
+  width: 55%;
+  float: right;
+  right: 0;
+  opacity: 1;
+  padding: 0;
+  position: initial;
+  visibility: visible;
+  color: #fd8204; }
+  .product-information .add-to-cart, body .cd-quick-view .cd-item-info .add-to-cart {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    border-radius: 0.25em;
+    border: none;
+    padding: .6em 1.2em;
+    background-color: #f82f53;
+    color: #ffffff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: "PT Sans", sans-serif;
+    font-size: 16px;
+    font-size: 1rem;
+    cursor: pointer; }
+  .product-information h2, body .cd-quick-view .cd-item-info h2 {
+    margin-bottom: 25px;
+    font-family: 'GothamBold', cursive;
+    font-size: 25px;
+    line-height: 1.1;
+    font-weight: normal;
+    text-align: left; }
+    .product-information h2 span, body .cd-quick-view .cd-item-info h2 span {
+      font-family: 'GothamBook', cursive;
+      font-size: 25px;
+      line-height: 1.1;
+      font-weight: normal; }
+  .product-information span, body .cd-quick-view .cd-item-info span {
+    font-family: 'GothamBook', cursive;
+    font-size: 15px;
+    line-height: 1.1;
+    font-weight: normal;
+    display: block; }
+    .product-information span.color, body .cd-quick-view .cd-item-info span.color {
+      margin-bottom: 15px; }
+    .product-information span b, body .cd-quick-view .cd-item-info span b {
+      font-family: 'GothamBold', cursive;
+      font-size: 15px;
+      line-height: 1.1;
+      font-weight: normal; }
+  .product-information .cd-item-select, body .cd-quick-view .cd-item-info .cd-item-select {
+    width: 50%;
+    position: relative;
+    margin-bottom: 37px; }
+    .product-information .cd-item-select span, body .cd-quick-view .cd-item-info .cd-item-select span {
+      margin-bottom: 5px; }
+    .product-information .cd-item-select:after, body .cd-quick-view .cd-item-info .cd-item-select:after {
+      content: '';
+      width: 24px;
+      height: 14px;
+      background: url("../images/arrow-select.png") center no-repeat;
+      bottom: 8px;
+      right: 13px;
+      position: absolute; }
+    .product-information .cd-item-select select, body .cd-quick-view .cd-item-info .cd-item-select select {
+      padding: 6px 13px;
+      width: 100%;
+      border: 1px solid #d5d5d3;
+      font-family: 'GothamBook', Arial, sans-serif;
+      font-size: 15px;
+      line-height: 1.2;
+      font-weight: normal;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none; }
+      .product-information .cd-item-select select:focus, body .cd-quick-view .cd-item-info .cd-item-select select:focus {
+        outline: none; }
+  .product-information .cd-item-action, body .cd-quick-view .cd-item-info .cd-item-action {
+    margin-bottom: 30px; }
+    .product-information .cd-item-action li, body .cd-quick-view .cd-item-info .cd-item-action li {
+      width: 50%; }
+      .product-information .cd-item-action li button, body .cd-quick-view .cd-item-info .cd-item-action li button {
+        background: #fd8204;
+        color: #fff;
+        font-family: 'GothamBook', Arial, sans-serif;
+        font-size: 15px;
+        line-height: 1.2;
+        font-weight: normal;
+        width: 100%;
+        text-align: left;
+        border-radius: 0; }
+  .product-information .cd-item-description p, body .cd-quick-view .cd-item-info .cd-item-description p, .product-information .cd-item-description li, body .cd-quick-view .cd-item-info .cd-item-description li {
+    color: #999999;
+    font-family: 'GothamLight', cursive;
+    font-size: 15px;
+    line-height: 1.1;
+    font-weight: normal;
+    margin: 0; }
+  .product-information .cd-item-description p, body .cd-quick-view .cd-item-info .cd-item-description p {
+    padding-bottom: 15px; }
+  .product-information .cd-item-description .item-title, body .cd-quick-view .cd-item-info .cd-item-description .item-title {
+    font-family: 'GothamBold', cursive;
+    font-size: 15px;
+    line-height: 1.1;
+    font-weight: normal;
+    color: #999;
+    padding-bottom: 16px; }
+
 body .cd-quick-view {
   position: absolute;
   top: 50%;
@@ -850,98 +942,6 @@ body .cd-quick-view {
     background: #fff; }
   body .cd-quick-view .cd-slider-wrapper {
     width: 40%; }
-  body .cd-quick-view .cd-item-info {
-    width: 60%;
-    width: 55%;
-    float: right;
-    right: 0;
-    opacity: 1;
-    padding: 0;
-    position: initial;
-    visibility: visible;
-    color: #fd8204; }
-    body .cd-quick-view .cd-item-info h2 {
-      margin-bottom: 25px;
-      font-family: 'GothamBold', cursive;
-      font-size: 25px;
-      line-height: 1.1;
-      font-weight: normal;
-      text-align: left; }
-      body .cd-quick-view .cd-item-info h2 span {
-        font-family: 'GothamBook', cursive;
-        font-size: 25px;
-        line-height: 1.1;
-        font-weight: normal; }
-    body .cd-quick-view .cd-item-info span {
-      font-family: 'GothamBook', cursive;
-      font-size: 15px;
-      line-height: 1.1;
-      font-weight: normal;
-      display: block; }
-      body .cd-quick-view .cd-item-info span.color {
-        margin-bottom: 15px; }
-      body .cd-quick-view .cd-item-info span b {
-        font-family: 'GothamBold', cursive;
-        font-size: 15px;
-        line-height: 1.1;
-        font-weight: normal; }
-    body .cd-quick-view .cd-item-info .cd-item-select {
-      width: 50%;
-      position: relative;
-      margin-bottom: 37px; }
-      body .cd-quick-view .cd-item-info .cd-item-select span {
-        margin-bottom: 5px; }
-      body .cd-quick-view .cd-item-info .cd-item-select:after {
-        content: '';
-        width: 24px;
-        height: 14px;
-        background: url("../images/arrow-select.png") center no-repeat;
-        bottom: 8px;
-        right: 13px;
-        position: absolute; }
-      body .cd-quick-view .cd-item-info .cd-item-select select {
-        padding: 6px 13px;
-        width: 100%;
-        border: 1px solid #d5d5d3;
-        font-family: 'GothamBook', Arial, sans-serif;
-        font-size: 15px;
-        line-height: 1.2;
-        font-weight: normal;
-        -webkit-appearance: none;
-        -moz-appearance: none;
-        appearance: none; }
-        body .cd-quick-view .cd-item-info .cd-item-select select:focus {
-          outline: none; }
-    body .cd-quick-view .cd-item-info .cd-item-action {
-      margin-bottom: 30px; }
-      body .cd-quick-view .cd-item-info .cd-item-action li {
-        width: 50%; }
-        body .cd-quick-view .cd-item-info .cd-item-action li button {
-          background: #fd8204;
-          color: #fff;
-          font-family: 'GothamBook', Arial, sans-serif;
-          font-size: 15px;
-          line-height: 1.2;
-          font-weight: normal;
-          width: 100%;
-          text-align: left;
-          border-radius: 0; }
-    body .cd-quick-view .cd-item-info .cd-item-description p, body .cd-quick-view .cd-item-info .cd-item-description li {
-      color: #999999;
-      font-family: 'GothamLight', cursive;
-      font-size: 15px;
-      line-height: 1.1;
-      font-weight: normal;
-      margin: 0; }
-    body .cd-quick-view .cd-item-info .cd-item-description p {
-      padding-bottom: 15px; }
-    body .cd-quick-view .cd-item-info .cd-item-description .item-title {
-      font-family: 'GothamBold', cursive;
-      font-size: 15px;
-      line-height: 1.1;
-      font-weight: normal;
-      color: #999;
-      padding-bottom: 16px; }
   body .cd-quick-view .cd-close {
     position: absolute;
     top: 26px;
@@ -1193,6 +1193,132 @@ body .cd-quick-view {
     padding: 10px 15px;
     min-width: 250px;
     text-align: left; }
+
+.noPaddingRight {
+  padding-right: 0 !important; }
+
+.paddingLeft5 {
+  padding-left: 5px !important; }
+
+.productDetail {
+  padding-top: 50px;
+  /* Left Column */
+  /* Product Color */ }
+  .productDetail #carousel-custom .carousel-inner {
+    position: relative;
+    width: 100%;
+    min-height: 300px; }
+  .productDetail #carousel-custom .carousel-control.right {
+    right: 0;
+    left: auto;
+    background-image: none !important;
+    background-repeat: repeat-x; }
+  .productDetail #carousel-custom .carousel-control.left {
+    left: 0;
+    right: auto;
+    background-image: none !important;
+    background-repeat: repeat-x; }
+  .productDetail #carousel-custom .carousel-indicators {
+    margin: 0 0;
+    overflow: auto;
+    position: static;
+    text-align: left;
+    white-space: nowrap;
+    width: 100%;
+    overflow: hidden; }
+    .productDetail #carousel-custom .carousel-indicators li {
+      background-color: transparent;
+      -webkit-border-radius: 0;
+      border-radius: 0;
+      display: unset;
+      height: auto !important;
+      margin: 0 !important;
+      width: auto !important;
+      border: none !important;
+      margin-bottom: 9px !important;
+      display: block; }
+      .productDetail #carousel-custom .carousel-indicators li img {
+        display: block;
+        border: 7px solid #F5DB6B !important; }
+      .productDetail #carousel-custom .carousel-indicators li.active img {
+        border-color: #f06902 !important; }
+      .productDetail #carousel-custom .carousel-indicators li:hover img {
+        opacity: 0.75; }
+  .productDetail #carousel-example-generic {
+    margin: 20px auto;
+    width: 100%; }
+  .productDetail #carousel-custom .carousel-outer {
+    position: relative; }
+  .productDetail div#carousel-custom {
+    margin: 0 0 50px; }
+  .productDetail .left_img img {
+    transition: all 0.3s ease; }
+  .productDetail .left_img img.current {
+    display: block !important; }
+  .productDetail .product-color {
+    margin-bottom: 30px; }
+  .productDetail .color-choose > div {
+    display: inline-block; }
+  .productDetail .color-choose input[type="radio"] {
+    display: none; }
+  .productDetail .color-choose input[type="radio"] + label span {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin: -1px 4px 0 0;
+    vertical-align: middle;
+    cursor: pointer;
+    border-radius: 50%; }
+  .productDetail .color-choose input[type="radio"] + label span {
+    border: 2px solid #FFFFFF;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.33); }
+  .productDetail .color-choose input[type="radio"]#black + label span {
+    background-color: #151515; }
+  .productDetail .color-choose input[type="radio"]#white + label span {
+    background-color: #fff; }
+  .productDetail .color-choose input[type="radio"]#yellow + label span {
+    background-color: #003CFF; }
+  .productDetail .color-choose input[type="radio"]:checked + label span {
+    background-image: url(../img/check-icn.svg);
+    background-repeat: no-repeat;
+    background-position: center; }
+  .productDetail .btn-cart {
+    font-size: 18px;
+    color: #fff;
+    border-radius: 0;
+    background: #f06902;
+    padding: 17px 120px;
+    display: inline-block;
+    margin-bottom: 20px; }
+  .productDetail .detailTitle {
+    font-family: 'GothamBold', cursive;
+    font-size: 38px;
+    line-height: 1.1;
+    font-weight: normal;
+    color: #ff8300;
+    text-align: center;
+    padding-bottom: 15px; }
+  .productDetail ul.categoryName {
+    margin-bottom: 45px;
+    text-align: center; }
+    .productDetail ul.categoryName li {
+      padding: 0 20px;
+      display: inline-block; }
+      .productDetail ul.categoryName li a {
+        font-family: 'GothamBook', cursive;
+        font-size: 21px;
+        line-height: 1.1;
+        font-weight: normal;
+        color: #ff8300; }
+  .productDetail .product-information, .productDetail body .cd-quick-view .cd-item-info, body .cd-quick-view .productDetail .cd-item-info {
+    width: 98%; }
+    .productDetail .product-information h2, .productDetail body .cd-quick-view .cd-item-info h2, body .cd-quick-view .productDetail .cd-item-info h2 {
+      font-size: 21px; }
+    .productDetail .product-information .cd-item-select, .productDetail body .cd-quick-view .cd-item-info .cd-item-select, body .cd-quick-view .productDetail .cd-item-info .cd-item-select {
+      width: 65%;
+      margin-bottom: 30px; }
+    .productDetail .product-information .cd-item-action li, .productDetail body .cd-quick-view .cd-item-info .cd-item-action li, body .cd-quick-view .productDetail .cd-item-info .cd-item-action li {
+      width: 65%; }
 
 @media screen and (min-width: 993px) and (max-width: 1024px) {
   .homepage #main-slide.carousel .carousel-inner .item .col-md-12 a.btn {

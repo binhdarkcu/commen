@@ -2,38 +2,6 @@
 var SiteMain = (function() {
 	function init(){
 		carousel_3d();
-		var resizeId;
-		// $(window).resize(function() {
-		//     clearTimeout(resizeId);
-		//     resizeId = setTimeout(function(){
-		// 		var separation = 230;
-		// 		var sizeMultiplier = 0.9;
-		// 		var flankingItems = 3;
-		// 		if($(window).width() < 640) {
-		// 			separation = 140
-		// 			flankingItems = 2
-		// 		}
-		// 		var carousel2 = $("#carousel1").waterwheelCarousel({
-		//       		flankingItems: flankingItems,
-		// 			separation: separation,
-		// 			sizeMultiplier: sizeMultiplier,
-		// 			opacityMultiplier: 1,
-		// 			clickedCenter: function($clickedItem) {
-		// 		      // $clickedItem is a jQuery wrapped object describing the image that was clicked.
-		// 			  openPopup('#viewProduct')
-		// 		    }
-		// 		})
-		// 		$('.prev').bind('click', function () {
-		// 		  carousel2.prev();
-		// 		  return false
-		// 		});
-		//
-		// 		$('.next').bind('click', function () {
-		// 		  carousel2.next();
-		// 		  return false;
-		// 		});
-		// 	}, 500);
-		// });
 	}
 
 	function openPopup(idDiv){

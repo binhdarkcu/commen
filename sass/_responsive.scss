@@ -24,6 +24,12 @@
     .signUpFree.navbar-fixed-top {
         top: 73px;
     }
+    .homepage .carousel .arr {
+        display: none;
+    }
+    .homepage .carousel #carousel1 {
+    	width: 97%;    
+    }
 }
 
 @media screen and (min-width: 0) and (max-width: 767px) {

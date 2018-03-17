@@ -4,8 +4,6 @@
       <div class="cd-slider-wrapper">
           <ul class="cd-slider">
               <li class="selected"><img src="images/popup-img.png" alt="Product 1"></li>
-              <li><img src="img/item-2.jpg" alt="Product 2"></li>
-              <li><img src="img/item-3.jpg" alt="Product 3"></li>
           </ul> <!-- cd-slider -->
 
           <ul class="cd-slider-navigation">

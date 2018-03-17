@@ -15,7 +15,6 @@
     <link href="asset/css/bootstrap.css" rel="stylesheet">
     <!-- Colors CSS -->
 	<link href="css/all.css" rel="stylesheet">
-
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
@@ -37,13 +36,11 @@
 
 <body class="index">
     <?php include('header.php')?>
-
     <div class="homepage">
-      <?php include('./slider.php')?>
+      <?php include('slider.php')?>
       <?php include('popup.php')?>
       <?php include('shopnow.php')?>
       <!-- Filter -->
-
       <section class="section-filter" id="filter">
           <h2>Memoirs</h2>
           <div class="container">

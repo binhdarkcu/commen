@@ -148,7 +148,8 @@ a {
     width: 20px !important;
     border: 0 !important;
     height: 20px !important;
-    background: #f5dc6a; }
+    background: #f5dc6a;
+    margin: 0 10px !important; }
     .homepage #main-slide.carousel .carousel-indicators li.active {
       background: #fd8204; }
   .homepage #main-slide.carousel .carousel-inner .item {
@@ -367,6 +368,8 @@ header .navbar-default {
     header .navbar-default .nav li a:hover {
       color: #fff;
       background: #fd8204; }
+    header .navbar-default .nav li a.cartIcon {
+      padding: 15px; }
 header .navbar-brand {
   height: auto;
   padding-top: 0;

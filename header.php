@@ -12,7 +12,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="#"><img src="images/logos/logo.png"/></a>
+                <a class="navbar-brand page-scroll" href="#"><img src="images/logo.png"/></a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->

@@ -13,44 +13,8 @@
 
     <!-- Bootstrap Core CSS -->
     <link href="asset/css/bootstrap.css" rel="stylesheet">
-
-    <!-- Font Awesome CSS -->
-    <link href="css/font-awesome.min.css" rel="stylesheet">
-
-
-    <!-- Animate CSS -->
-    <link href="css/animate.css" rel="stylesheet" >
-
-    <!-- Owl-Carousel -->
-    <link rel="stylesheet" href="css/owl.carousel.css" >
-    <link rel="stylesheet" href="css/owl.theme.css" >
-    <link rel="stylesheet" href="css/owl.transitions.css" >
-    <link rel="stylesheet" href="css/feature-carousel.css" charset="utf-8" />
-    <!-- Custom CSS -->
-    <link href="css/style.css" rel="stylesheet">
-    <link href="css/quickstyle.css" rel="stylesheet">
-    <link href="css/responsive.css" rel="stylesheet">
-
     <!-- Colors CSS -->
-    <link rel="stylesheet" type="text/css" href="css/color/green.css">
-
-
-
-    <!-- Colors CSS -->
-    <link rel="stylesheet" type="text/css" href="css/color/green.css" title="green">
-    <link rel="stylesheet" type="text/css" href="css/color/light-red.css" title="light-red">
-    <link rel="stylesheet" type="text/css" href="css/color/blue.css" title="blue">
-    <link rel="stylesheet" type="text/css" href="css/color/light-blue.css" title="light-blue">
-    <link rel="stylesheet" type="text/css" href="css/color/yellow.css" title="yellow">
-    <link rel="stylesheet" type="text/css" href="css/color/light-green.css" title="light-green">
 	<link href="css/all.css" rel="stylesheet">
-    <!-- Custom Fonts -->
-    <link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
-
-
-    <!-- Modernizer js -->
-    <script src="js/modernizr.custom.js"></script>
-
 
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -65,23 +29,9 @@
 
     <!-- Plugin JavaScript -->
     <script src="js/jquery.easing.1.3.js"></script>
-    <script src="js/classie.js"></script>
-    <script src="js/count-to.js"></script>
-    <script src="js/jquery.appear.js"></script>
-    <script src="js/cbpAnimatedHeader.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-  	<script src="js/jquery.fitvids.js"></script>
-  	<script src="js/styleswitcher.js"></script>
     <script src="js/jquery.waterwheelCarousel.min.js"></script>
 
-    <!-- Contact Form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
-    <script src="js/velocity.min.js"></script>
-    <script src="js/main.js"></script> <!-- Resource jQuery -->
-
     <!-- Custom Theme JavaScript -->
-    <script src="js/script.js"></script>
 	<script src="js/class.SiteMain.js"></script>
 </head>
 
@@ -91,43 +41,7 @@
     <div class="homepage">
       <?php include('./slider.php')?>
       <?php include('popup.php')?>
-      <section class="carousel container">
-          <div class="col-md-12">
-              <div class="row">
-                <div class="carousel-container">
-                    <div id="carousel1">
-                      <div class="carousel-item">
-                        <a href="javascript:void(0)"><img class="carousel-image" alt="Image Caption" src="images/product1.jpg"></a>
-                      </div>
-                      <div class="carousel-item">
-                        <a href="javascript:void(0)"><img class="carousel-image" alt="Image Caption" src="images/product1.jpg"></a>
-                      </div>
-                      <div class="carousel-item">
-                        <a href="javascript:void(0)"><img class="carousel-image" alt="Image Caption" src="images/product1.jpg"></a>
-                      </div>
-                      <div class="carousel-item">
-                        <a href="javascript:void(0)"><img class="carousel-image" alt="Image Caption" src="images/product1.jpg"></a>
-                      </div>
-                      <div class="carousel-item">
-                        <a href="javascript:void(0)"><img class="carousel-image" alt="Image Caption" src="images/product1.jpg"></a>
-                      </div>
-                      <div class="carousel-item">
-                        <a href="javascript:void(0)"><img class="carousel-image" alt="Image Caption" src="images/product1.jpg"></a>
-                      </div>
-                      <div class="carousel-item">
-                        <a href="javascript:void(0)"><img class="carousel-image" alt="Image Caption" src="images/product1.jpg"></a>
-                      </div>
-                    </div>
-                    <a class="prev arr"></a>
-                    <a class="next arr"></a>
-            	  </div>
-              </div>
-          </div>
-          <div class="col-md-12 row-title">
-            <h2>COMMEN TEE</h2>
-            <a href="#" class="btn-style">shop now</a>
-          </div>
-      </section>
+      <?php include('shopnow.php')?>
       <!-- Filter -->
 
       <section class="section-filter" id="filter">
@@ -169,9 +83,6 @@
                       <a href="#">READ MORE</a>
                     </div>
                   </div>
-
-
-
                 </div>
               </div>
             </div>
@@ -180,8 +91,6 @@
       </section>
       <!-- End filter -->
     </div>
-
-
     <!-- Loader -->
     <div id="loader">
         <div class="spinner">
@@ -189,10 +98,6 @@
             <div class="dot2"></div>
         </div>
     </div>
-
-
     <?php include ('footer.php') ?>
-
 </body>
-
 </html>

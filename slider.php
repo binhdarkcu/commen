@@ -23,31 +23,6 @@
                 </div>
             </div>
             <!--/ Carousel item end -->
-
-            <div class="item">
-                <img class="img-responsive" src="images/header-back.png" alt="slider">
-
-                <div class="slider-content">
-                    <div class="col-md-12 text-center">
-                        <p class="animated2">“Only those who risk going too far, can possibly ﬁnd out how far one can go”</p>
-                        <span class="animated2">T.S Eliot</span>
-                        <a href="#feature" class="page-scroll btn btn-primary animated1">SHOP THE NEW COLLECTION</a>
-                    </div>
-                </div>
-            </div>
-            <!--/ Carousel item end -->
-
-            <div class="item">
-                <img class="img-responsive" src="images//galaxy.jpg" alt="slider">
-                <div class="slider-content">
-                    <div class="col-md-12 text-center">
-                        <p class="animated2">“Only those who risk going too far, can possibly ﬁnd out how far one can go”</p>
-                        <span class="animated2">T.S Eliot</span>
-                        <a href="#feature" class="page-scroll btn btn-primary animated1">SHOP THE NEW COLLECTION</a>
-                    </div>
-                </div>
-            </div>
-            <!--/ Carousel item end -->
         </div>
         <!-- Carousel inner end-->
 

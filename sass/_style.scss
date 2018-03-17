@@ -280,6 +280,9 @@ header {
 
   nav.navbar-fixed-top {
     z-index: 1050;
+	border-width: 0;
+	border: none;
+	min-height: 76px;
   }
 
 }

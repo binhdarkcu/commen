@@ -304,7 +304,10 @@ a {
     display: block !important; } }
 /* begin header */
 header nav.navbar-fixed-top {
-  z-index: 1050; }
+  z-index: 1050;
+  border-width: 0;
+  border: none;
+  min-height: 76px; }
 
 @media screen and (max-width: 1024px) {
   header nav .navbar-header {
@@ -1117,6 +1120,14 @@ body .cd-quick-view {
 .slider-content-right {
   position: relative; }
 
+@media screen and (min-width: 993px) and (max-width: 1024px) {
+  .homepage #main-slide.carousel .carousel-inner .item .col-md-12 a.btn {
+    font-size: 23px;
+    padding: 20px 30px; }
+  .homepage .carousel .arr.prev {
+    left: 0; }
+  .homepage .carousel .arr.next {
+    right: 0; } }
 @media screen and (min-width: 768px) and (max-width: 992px) {
   .homepage #main-slide.carousel .carousel-inner .item .col-md-12 p {
     font-size: 32px; }

@@ -3,7 +3,16 @@ var SiteMain = (function() {
 	function init(){
 		carousel_3d();
 	}
-
+	var separation = 230;
+	var sizeMultiplier = 0.9;
+	var flankingItems = 3;
+	if($(window).width() < 640) {
+		separation = 140
+		flankingItems = 2
+	} else if($(window).width() > 992 && $(window).width() <=1024) {
+		separation = 160
+		flankingItems = 2
+	}
 	function openPopup(idDiv){
 		$('.result_question').css('display','none')
 		$(idDiv).css({'visibility':'visible','display':'block'});
@@ -11,14 +20,21 @@ var SiteMain = (function() {
 	function closePopup(idDiv){
 		$(idDiv).css({'visibility':'hidden','display':'none'});
 	}
+
 	function carousel_3d() {
-		var separation = 230;
-		var sizeMultiplier = 0.9;
-		var flankingItems = 3;
-		if($(window).width() < 640) {
-			separation = 140
-			flankingItems = 2
-		}
+		$(window).resize(function(){
+			var separation = 230;
+			var sizeMultiplier = 0.9;
+			var flankingItems = 3;
+			if($(window).width() < 640) {
+				separation = 140
+				flankingItems = 2
+			} else if($(window).width() > 992 && $(window).width() <=1024) {
+				separation = 160
+				flankingItems = 2
+			}
+
+		})
 		var options = {
 			flankingItems: flankingItems,
 			separation: separation,

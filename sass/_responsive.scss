@@ -1,3 +1,27 @@
+@media screen and (min-width: 993px) and (max-width: 1024px) {
+    .homepage {
+        #main-slide.carousel {
+            .carousel-inner {
+                .item {
+                    .col-md-12 a.btn {
+                       font-size: 23px;
+                       padding: 20px 30px;
+                   }
+                }
+            }
+        }
+        .carousel {
+            .arr{
+                &.prev {
+                    left: 0;
+                }
+                &.next {
+                    right: 0;
+                }
+            }
+        }
+    }
+}
 @media screen and (min-width: 768px) and (max-width: 992px) {
     #main-slide {
         .slider-content{
@@ -28,7 +52,7 @@
         display: none;
     }
     .homepage .carousel #carousel1 {
-    	width: 97%;    
+    	width: 97%;
     }
 }
 

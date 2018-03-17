@@ -12,7 +12,7 @@
           </ul> <!-- cd-slider-navigation -->
       </div> <!-- cd-slider-wrapper -->
 
-      <div class="cd-item-info">
+      <div class="cd-item-info product-information">
           <h2>COMMEN PURPLE<br/><span>£29.99</span></h2>
           <span class="color"><b>Colour:</b> Purple</span>
           <div class="cd-item-select">

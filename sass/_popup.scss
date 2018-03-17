@@ -260,24 +260,6 @@ Main components
 .cd-item-info .cd-item-action li:first-child {
   margin-left: -4px;
 }
-.cd-item-info .add-to-cart {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  -ms-appearance: none;
-  -o-appearance: none;
-  appearance: none;
-  border-radius: 0.25em;
-  border: none;
-  padding: .6em 1.2em;
-  background-color: #f82f53;
-  color: #ffffff;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  font-family: "PT Sans", sans-serif;
-  font-size: 16px;
-  font-size: 1rem;
-  cursor: pointer;
-}
 .add-content .cd-item-info {
   /* class added at the end of the width animation, used to show the content */
   position: relative;
@@ -397,7 +379,126 @@ Main components
   -moz-transition: -moz-transform .3s 0s, visibility 0s 0s;
   transition: transform .3s 0s, visibility 0s 0s;
 }
+.product-information {
+  width: 60%;
+  width: 55%;
+  float: right;
+  right: 0;
+  opacity: 1;
+  padding: 0;
+  position: initial;
+  visibility: visible;
+  color: $orange;
+  .add-to-cart {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    border-radius: 0.25em;
+    border: none;
+    padding: .6em 1.2em;
+    background-color: #f82f53;
+    color: #ffffff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: "PT Sans", sans-serif;
+    font-size: 16px;
+    font-size: 1rem;
+    cursor: pointer;
+  } 
+  h2 {
+    margin-bottom: 25px;
+    @include GothamBold(25px);
+    text-align: left;
+    span {
+        @include GothamBook(25px);
+    }
+  }
 
+  span {
+    @include GothamBook(15px);
+    display: block;
+    &.color {
+      margin-bottom: 15px;
+    }
+    b {
+        @include GothamBold(15px);
+    }
+  }
+
+  .cd-item-select {
+    width: 50%;
+    position: relative;
+    margin-bottom: 37px;
+    span{
+        margin-bottom: 5px;
+    }
+
+    &:after {
+      content: '';
+      width: 24px;
+      height: 14px;
+      background: url('../images/arrow-select.png') center no-repeat;
+      bottom: 8px;
+      right: 13px;
+      position: absolute;
+    }
+
+    select {
+      padding: 6px 13px;
+      width: 100%;
+      border: 1px solid #d5d5d3;
+      @include Algerian(15px);
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+
+      &:focus {
+        outline: none;
+      }
+
+    }
+
+  }
+
+  .cd-item-action {
+    margin-bottom: 30px;
+
+    li {
+      width: 50%;
+
+      button {
+        background: $orange;
+        color: #fff;
+        @include Algerian(15px);
+        width: 100%;
+        text-align: left;
+        border-radius: 0;
+      }
+
+    }
+
+  }
+
+  .cd-item-description {
+
+    p, li {
+      color: $gray;
+      @include GothamLight(15px);
+      margin: 0;
+    }
+    p{
+        padding-bottom: 15px;
+    }
+    .item-title{
+        @include GothamBold(15px);
+        color: #999;
+        padding-bottom: 16px;
+    }
+
+  }
+}
 body .cd-quick-view {
   @include objAbsoluteMiddle();
   width: 90%;
@@ -415,109 +516,8 @@ body .cd-quick-view {
     width: 40%;
   }
 
-  .cd-item-info {
-    width: 60%;
-    width: 55%;
-    float: right;
-    right: 0;
-    opacity: 1;
-    padding: 0;
-    position: initial;
-    visibility: visible;
-    color: $orange;
-
-    h2 {
-      margin-bottom: 25px;
-      @include GothamBold(25px);
-      text-align: left;
-      span {
-          @include GothamBook(25px);
-      }
-    }
-
-    span {
-      @include GothamBook(15px);
-      display: block;
-      &.color {
-        margin-bottom: 15px;
-      }
-      b {
-          @include GothamBold(15px);
-      }
-    }
-
-    .cd-item-select {
-      width: 50%;
-      position: relative;
-      margin-bottom: 37px;
-      span{
-          margin-bottom: 5px;
-      }
-
-      &:after {
-        content: '';
-        width: 24px;
-        height: 14px;
-        background: url('../images/arrow-select.png') center no-repeat;
-        bottom: 8px;
-        right: 13px;
-        position: absolute;
-      }
-
-      select {
-        padding: 6px 13px;
-        width: 100%;
-        border: 1px solid #d5d5d3;
-        @include Algerian(15px);
-        -webkit-appearance: none;
-        -moz-appearance: none;
-        appearance: none;
-
-        &:focus {
-          outline: none;
-        }
-
-      }
-
-    }
-
-    .cd-item-action {
-      margin-bottom: 30px;
-
-      li {
-        width: 50%;
-
-        button {
-          background: $orange;
-          color: #fff;
-          @include Algerian(15px);
-          width: 100%;
-          text-align: left;
-          border-radius: 0;
-        }
-
-      }
-
-    }
-
-    .cd-item-description {
-
-      p, li {
-        color: $gray;
-        @include GothamLight(15px);
-        margin: 0;
-      }
-      p{
-          padding-bottom: 15px;
-      }
-      .item-title{
-          @include GothamBold(15px);
-          color: #999;
-          padding-bottom: 16px;
-      }
-
-    }
-
+  .cd-item-info{
+      @extend .product-information;
   }
 
   .cd-close {

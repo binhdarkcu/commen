@@ -23,11 +23,20 @@
     }
 }
 @media screen and (min-width: 768px) and (max-width: 992px) {
-    #main-slide {
-        .slider-content{
-
+    .contactPage {
+        .contactForm {
+            width: 640px;
+            .contactRow {
+                input[type="text"] {
+                    width: 80%;
+                }
+                &.subject {
+                    input[type="text"] {
+                        width: 60%;
+                    }
+                }
+            }
         }
-
     }
     .homepage {
         #main-slide.carousel {
@@ -54,7 +63,21 @@
 }
 
 @media screen and (min-width: 0) and (max-width: 767px) {
-
+    .contactPage {
+        .contactForm {
+            width: 85%;
+            .contactRow{
+                input[type="text"] {
+                    width: 80%;
+                }
+                &.subject {
+                    input[type="text"] {
+                        width: 60%;
+                    }
+                }
+            }
+        }
+    }
 	.homepage {
         #main-slide.carousel {
             .carousel-inner {

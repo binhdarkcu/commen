@@ -1174,7 +1174,7 @@ body .cd-quick-view {
         padding-top: 10px;
         resize: none;
         display: block;
-        width: 100%;
+        width: 98%;
         padding-left: 10px;
         outline: none;
         height: 90%;
@@ -1203,6 +1203,13 @@ body .cd-quick-view {
   .homepage .carousel .arr.next {
     right: 0; } }
 @media screen and (min-width: 768px) and (max-width: 992px) {
+  .contactPage .contactForm {
+    width: 640px; }
+    .contactPage .contactForm .contactRow input[type="text"] {
+      width: 80%; }
+    .contactPage .contactForm .contactRow.subject input[type="text"] {
+      width: 60%; }
+
   .homepage #main-slide.carousel .carousel-inner .item .col-md-12 p {
     font-size: 32px; }
   .homepage #main-slide.carousel .carousel-inner .item .col-md-12 a.btn {
@@ -1214,6 +1221,13 @@ body .cd-quick-view {
   .homepage .carousel #carousel1 {
     width: 97%; } }
 @media screen and (min-width: 0) and (max-width: 767px) {
+  .contactPage .contactForm {
+    width: 85%; }
+    .contactPage .contactForm .contactRow input[type="text"] {
+      width: 80%; }
+    .contactPage .contactForm .contactRow.subject input[type="text"] {
+      width: 60%; }
+
   .homepage #main-slide.carousel .carousel-inner .slider-content {
     display: none; }
   .homepage #main-slide.carousel .carousel-inner .item {

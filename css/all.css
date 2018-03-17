@@ -149,8 +149,7 @@ a {
 
 .homepage {
   /* slider */
-  /* slider 2 */
-  /* filetr */ }
+  /* slider 2 */ }
   .homepage #main-slide.carousel .carousel-indicators li {
     width: 20px !important;
     border: 0 !important;
@@ -233,47 +232,6 @@ a {
         cursor: pointer;
         /* otherwise it's not as obvious items can be clicked */
         border: 16px solid #f5dc6a; }
-  .homepage .section-filter {
-    border-bottom: 11px solid #fd8204;
-    padding: 50px 0 35px;
-    background: url("../images/filter-bg.png") center no-repeat;
-    background-size: cover; }
-    .homepage .section-filter__main {
-      margin-bottom: 25px; }
-      .homepage .section-filter__main--nav {
-        text-align: center;
-        margin-bottom: 25px; }
-        .homepage .section-filter__main--nav a {
-          font-family: 'GothamBold', cursive;
-          font-size: 25px;
-          line-height: 1.1;
-          font-weight: normal;
-          color: #fd8204;
-          margin-right: 40px; }
-          .homepage .section-filter__main--nav a:last-child {
-            margin-right: 0; }
-      .homepage .section-filter__main--content {
-        margin-bottom: 30px; }
-        .homepage .section-filter__main--content .filter-item {
-          border: 9px solid #fff;
-          padding: 16px 18px 20px;
-          text-align: center;
-          background: #f5dc6a; }
-          .homepage .section-filter__main--content .filter-item img {
-            width: 100%;
-            margin-bottom: 30px; }
-          .homepage .section-filter__main--content .filter-item p, .homepage .section-filter__main--content .filter-item a {
-            color: #000;
-            font-family: 'GothamBold', cursive;
-            font-size: 22px;
-            line-height: 1.1;
-            font-weight: normal; }
-          .homepage .section-filter__main--content .filter-item p {
-            margin-bottom: 30px;
-            font-family: 'GothamLight', cursive;
-            font-size: 22px;
-            line-height: 1.1;
-            font-weight: normal; }
   .homepage h2 {
     font-family: 'GothamBold', cursive;
     font-size: 45px;
@@ -282,6 +240,49 @@ a {
     color: #fd8204;
     text-align: center;
     margin-bottom: 15px; }
+
+/* filter */
+.section-filter {
+  border-bottom: 11px solid #fd8204;
+  padding: 50px 0 35px;
+  background: url("../images/filter-bg.png") center no-repeat;
+  background-size: cover; }
+  .section-filter__main {
+    margin-bottom: 25px; }
+    .section-filter__main--nav {
+      text-align: center;
+      margin-bottom: 25px; }
+      .section-filter__main--nav a {
+        font-family: 'GothamBold', cursive;
+        font-size: 25px;
+        line-height: 1.1;
+        font-weight: normal;
+        color: #fd8204;
+        margin-right: 40px; }
+        .section-filter__main--nav a:last-child {
+          margin-right: 0; }
+    .section-filter__main--content {
+      margin-bottom: 30px; }
+      .section-filter__main--content .filter-item {
+        border: 9px solid #fff;
+        padding: 16px 18px 20px;
+        text-align: center;
+        background: #f5dc6a; }
+        .section-filter__main--content .filter-item img {
+          width: 100%;
+          margin-bottom: 30px; }
+        .section-filter__main--content .filter-item p, .section-filter__main--content .filter-item a {
+          color: #000;
+          font-family: 'GothamBold', cursive;
+          font-size: 22px;
+          line-height: 1.1;
+          font-weight: normal; }
+        .section-filter__main--content .filter-item p {
+          margin-bottom: 30px;
+          font-family: 'GothamLight', cursive;
+          font-size: 22px;
+          line-height: 1.1;
+          font-weight: normal; }
 
 @media screen and (max-width: 992px) {
   .homepage .section-filter__main--content .col-md-4 {
@@ -355,7 +356,7 @@ header nav.navbar-fixed-top {
     text-decoration: none; }
 
 .paddingBody {
-  margin-top: 134px !important; }
+  margin-top: 133px !important; }
 
 header .navbar-right {
   margin-right: 0; }
@@ -1119,6 +1120,79 @@ body .cd-quick-view {
 
 .slider-content-right {
   position: relative; }
+
+/*Contact*/
+.contactPage.section-filter {
+  min-height: 798px;
+  padding-top: 60px;
+  background: url(../images/contact-filter-bg.png) no-repeat top center; }
+.contactPage h3 {
+  font-family: 'GothamBold', cursive;
+  font-size: 45px;
+  line-height: 1.1;
+  font-weight: normal;
+  color: #ff8300;
+  padding-bottom: 35px; }
+.contactPage .contactForm {
+  width: 835px;
+  display: table;
+  margin: 0 auto; }
+  .contactPage .contactForm .contactRow {
+    position: relative;
+    border: 2px solid #ff8300;
+    width: 100%;
+    background: #fff;
+    height: 28px;
+    margin-bottom: 15px; }
+    .contactPage .contactForm .contactRow label {
+      font-family: 'GothamBook', cursive;
+      font-size: 15px;
+      line-height: 1.1;
+      font-weight: normal;
+      color: #ff8300;
+      padding-left: 10px;
+      position: relative;
+      top: -1px; }
+    .contactPage .contactForm .contactRow input[type="text"] {
+      font-family: 'GothamBook', cursive;
+      font-size: 15px;
+      line-height: 1.1;
+      font-weight: normal;
+      color: #ff8300;
+      height: 25px;
+      border: none;
+      background: transparent;
+      outline: none;
+      width: 90%; }
+    .contactPage .contactForm .contactRow.subject input[type="text"] {
+      width: 70%; }
+    .contactPage .contactForm .contactRow.message {
+      height: 330px; }
+      .contactPage .contactForm .contactRow.message label {
+        margin-top: 12px; }
+      .contactPage .contactForm .contactRow.message textarea {
+        padding-top: 10px;
+        resize: none;
+        display: block;
+        width: 100%;
+        padding-left: 10px;
+        outline: none;
+        height: 90%;
+        font-family: 'GothamBook', cursive;
+        font-size: 15px;
+        line-height: 1.1;
+        font-weight: normal;
+        color: #ff8300; }
+  .contactPage .contactForm input[type="submit"] {
+    color: #fff;
+    font-family: 'GothamBook', cursive;
+    font-size: 15px;
+    line-height: 1.1;
+    font-weight: normal;
+    background: #fd8204;
+    padding: 10px 15px;
+    min-width: 250px;
+    text-align: left; }
 
 @media screen and (min-width: 993px) and (max-width: 1024px) {
   .homepage #main-slide.carousel .carousel-inner .item .col-md-12 a.btn {

@@ -1,7 +1,7 @@
 <!-- Start Home Page Slider -->
 <section id="page-top">
     <!-- Carousel -->
-    <div id="main-slide" class="carousel slide" data-ride="carousel">
+    <div id="main-slide" class="carousel slide paddingBody" data-ride="carousel">
 
         <!-- Indicators -->
         <ol class="carousel-indicators">

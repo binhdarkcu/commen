@@ -354,6 +354,9 @@ header nav.navbar-fixed-top {
     color: #fff;
     text-decoration: none; }
 
+.paddingBody {
+  margin-top: 134px !important; }
+
 header .navbar-right {
   margin-right: 0; }
 header .navbar-default {
@@ -401,8 +404,8 @@ header .navbar-brand {
   .signUpFree .txt {
     color: #ff8300;
     font-size: 20px;
-    font-family: "GothamBook";
-    margin-top: 18px;
+    font-family: "GothamBold";
+    margin-top: 20px;
     display: inline-block; }
   .signUpFree .signupBox {
     float: right;
@@ -429,9 +432,6 @@ header .navbar-brand {
       font-family: "GothamBold";
       font-size: 20px;
       color: #fff; }
-
-#main-slide {
-  margin-top: 134px; }
 
 .customWidth02 {
   width: 227px; }
@@ -1133,9 +1133,6 @@ body .cd-quick-view {
     font-size: 32px; }
   .homepage #main-slide.carousel .carousel-inner .item .col-md-12 a.btn {
     font-size: 16px; }
-
-  .signUpFree.navbar-fixed-top {
-    top: 73px; }
 
   .homepage .carousel .arr {
     display: none; }

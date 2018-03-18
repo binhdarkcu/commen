@@ -158,6 +158,9 @@ a{text-decoration: none;}
         visibility:hidden; /* hide images until carousel can handle them */
         cursor:pointer; /* otherwise it's not as obvious items can be clicked */
         border: 16px solid $yellow-1;
+		&.active {
+			border-color: #fd8204;
+		}
       }
     }
   }
@@ -372,4 +375,8 @@ header {
 
 .paddingBody {
 	margin-top: 133px!important;
+}
+
+body.overflowHidden{
+	overflow: hidden;
 }

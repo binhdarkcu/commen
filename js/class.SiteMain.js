@@ -1,8 +1,46 @@
 // JavaScript Document
 var SiteMain = (function() {
+
+	var setting = {
+	   font: 10,
+	   w: 1170,
+   }
+
 	function init(){
 		carousel_3d();
+		respone();
+		$('.welcomeBox').height($(window).height()- $('header nav').height())
+		$(window).resize(function(e) {
+		   respone();
+		});
+		if($('.welcomeBox').length > 0){
+			$('body').addClass('overflowHidden')
+			if($('.welcomeBox').height() > $('body')) {
+
+			}
+		}
+		animateHome();
 	}
+
+	function animateHome(){
+		$('a.arrowWelcome ').click(function(){
+			$('.welcomeBox').animate({height:0},100, function(){
+				$('.welcomeBox').css('margin-top',0)
+				$('body').removeClass('overflowHidden')
+			});
+
+		});
+	}
+
+	function respone() {
+		if($(window).width() < 1171) {
+	        setting.font = ($(window).width() * 10) / setting.w;
+	        if ($('html').hasClass('ie8'))
+	            setting.font = Math.round(setting.font);
+	        $('body, .welcomeBox').css('font-size', setting.font + 'px');
+		}
+    }
+
 	var separation = 230;
 	var sizeMultiplier = 0.9;
 	var flankingItems = 3;
@@ -41,9 +79,11 @@ var SiteMain = (function() {
 			sizeMultiplier: sizeMultiplier,
 			opacityMultiplier: 1,
 			preloadImages:true,
+			activeClassName: 'active',
 			clickedCenter: function($clickedItem) {
 		      // $clickedItem is a jQuery wrapped object describing the image that was clicked.
-			  openPopup('#viewProduct')
+			  var productID = $($clickedItem).attr('data-id');
+			  openPopup('#viewProduct-'+ productID);
 		    }
 		}
 		var carousel = $("#carousel1").waterwheelCarousel(options)

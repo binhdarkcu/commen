@@ -27,6 +27,7 @@
     <script src="asset/js/bootstrap.min.js"></script>
 
     <!-- Plugin JavaScript -->
+    <script src="js/detect.js"></script>
     <script src="js/jquery.easing.1.3.js"></script>
     <script src="js/jquery.waterwheelCarousel.min.js"></script>
 
@@ -34,10 +35,10 @@
 	<script src="js/class.SiteMain.js"></script>
 </head>
 
-<body class="index">
+<body class="home">
 <!-- Navigation -->
-<header>
-    <nav class="navbar navbar-default navbar-fixed-top ">
+<header class="navbar-fixed-top">
+    <nav class="navbar navbar-default">
         <div class="container">
 
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -82,7 +83,14 @@
         </div>
         <!-- /.container-fluid -->
     </nav>
-    <div class="signUpFree navbar-fixed-top">
+    <div class="welcomeBox">
+        <div class="container">
+            <h2>WELCOME TO COMMEN</h2>
+            <p>Lorem ipsum dolor sit amet, consectetuer ad ipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam </p>
+            <a href="javascript:void(0)" class="arrowWelcome bounce"></a>
+        </div>
+    </div>
+    <div class="signUpFree ">
         <div class="container">
             <span class="txt">SIGN UP FOR 10% OFF YOUR FIRST ORDER</span>
             <div class="signupBox">

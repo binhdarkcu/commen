@@ -50,29 +50,26 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="#"><img src="images/logo.png"/></a>
+                <a class="navbar-brand page-scroll" href="index.php"><img src="images/logo.png"/></a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
+                    <li>
+                        <a class="page-scroll" href="memoirs.php">MEM OIRS</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#">MEM OIRS</a>
+                        <a class="page-scroll" href="about.php">ABOUT</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#">ABOUT</a>
+                        <a class="page-scroll" href="products.php">SHOP</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#">SHOP</a>
+                        <a class="page-scroll" href="shopify.php">BANGERS</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#">BANGERS</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#">TALK TO ME</a>
+                        <a class="page-scroll" href="contact.php">TALK TO ME</a>
                     </li>
                     <li class="visible-1024">
                         <a class="cartIcon" href="#"></a>

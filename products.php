@@ -14,77 +14,77 @@
 
           <!-- item -->
           <div class="products_page-item col-md-3 col-sm-4 col-xs-12">
-            <img src="images/product1.jpg" class="img-responsive" alt="">
+            <a href="product-detail.php"><img src="images/product1.jpg" class="img-responsive" alt="">
             <p>TEE NAME</p>
-            <span>£29.99</span>
+            <span>£29.99</span></a>
           </div>
           <!-- item -->
           <div class="products_page-item col-md-3 col-sm-4 col-xs-12">
-            <img src="images/product1.jpg" class="img-responsive" alt="">
+            <a href="product-detail.php"><img src="images/product1.jpg" class="img-responsive" alt="">
             <p>TEE NAME</p>
-            <span>£29.99</span>
+            <span>£29.99</span></a>
           </div>
           <!-- item -->
           <div class="products_page-item col-md-3 col-sm-4 col-xs-12">
-            <img src="images/product1.jpg" class="img-responsive" alt="">
+            <a href="product-detail.php"><img src="images/product1.jpg" class="img-responsive" alt="">
             <p>TEE NAME</p>
-            <span>£29.99</span>
+            <span>£29.99</span></a>
           </div>
           <!-- item -->
           <div class="products_page-item col-md-3 col-sm-4 col-xs-12">
-            <img src="images/product1.jpg" class="img-responsive" alt="">
+            <a href="product-detail.php"><img src="images/product1.jpg" class="img-responsive" alt="">
             <p>TEE NAME</p>
-            <span>£29.99</span>
-          </div>
-
-          <!-- item -->
-          <div class="products_page-item col-md-3 col-sm-4 col-xs-12">
-            <img src="images/product1.jpg" class="img-responsive" alt="">
-            <p>TEE NAME</p>
-            <span>£29.99</span>
-          </div>
-          <!-- item -->
-          <div class="products_page-item col-md-3 col-sm-4 col-xs-12">
-            <img src="images/product1.jpg" class="img-responsive" alt="">
-            <p>TEE NAME</p>
-            <span>£29.99</span>
-          </div>
-          <!-- item -->
-          <div class="products_page-item col-md-3 col-sm-4 col-xs-12">
-            <img src="images/product1.jpg" class="img-responsive" alt="">
-            <p>TEE NAME</p>
-            <span>£29.99</span>
-          </div>
-          <!-- item -->
-          <div class="products_page-item col-md-3 col-sm-4 col-xs-12">
-            <img src="images/product1.jpg" class="img-responsive" alt="">
-            <p>TEE NAME</p>
-            <span>£29.99</span>
+            <span>£29.99</span></a>
           </div>
 
           <!-- item -->
           <div class="products_page-item col-md-3 col-sm-4 col-xs-12">
-            <img src="images/product1.jpg" class="img-responsive" alt="">
+            <a href="product-detail.php"><img src="images/product1.jpg" class="img-responsive" alt="">
             <p>TEE NAME</p>
-            <span>£29.99</span>
+            <span>£29.99</span></a>
           </div>
           <!-- item -->
           <div class="products_page-item col-md-3 col-sm-4 col-xs-12">
-            <img src="images/product1.jpg" class="img-responsive" alt="">
+            <a href="product-detail.php"><img src="images/product1.jpg" class="img-responsive" alt="">
             <p>TEE NAME</p>
-            <span>£29.99</span>
+            <span>£29.99</span></a>
           </div>
           <!-- item -->
           <div class="products_page-item col-md-3 col-sm-4 col-xs-12">
-            <img src="images/product1.jpg" class="img-responsive" alt="">
+            <a href="product-detail.php"><img src="images/product1.jpg" class="img-responsive" alt="">
             <p>TEE NAME</p>
-            <span>£29.99</span>
+            <span>£29.99</span></a>
           </div>
           <!-- item -->
           <div class="products_page-item col-md-3 col-sm-4 col-xs-12">
-            <img src="images/product1.jpg" class="img-responsive" alt="">
+            <a href="product-detail.php"><img src="images/product1.jpg" class="img-responsive" alt="">
             <p>TEE NAME</p>
-            <span>£29.99</span>
+            <span>£29.99</span></a>
+          </div>
+
+          <!-- item -->
+          <div class="products_page-item col-md-3 col-sm-4 col-xs-12">
+            <a href="product-detail.php"><img src="images/product1.jpg" class="img-responsive" alt="">
+            <p>TEE NAME</p>
+            <span>£29.99</span></a>
+          </div>
+          <!-- item -->
+          <div class="products_page-item col-md-3 col-sm-4 col-xs-12">
+            <a href="product-detail.php"><img src="images/product1.jpg" class="img-responsive" alt="">
+            <p>TEE NAME</p>
+            <span>£29.99</span></a>
+          </div>
+          <!-- item -->
+          <div class="products_page-item col-md-3 col-sm-4 col-xs-12">
+            <a href="product-detail.php"><img src="images/product1.jpg" class="img-responsive" alt="">
+            <p>TEE NAME</p>
+            <span>£29.99</span></a>
+          </div>
+          <!-- item -->
+          <div class="products_page-item col-md-3 col-sm-4 col-xs-12">
+            <a href="product-detail.php"><img src="images/product1.jpg" class="img-responsive" alt="">
+            <p>TEE NAME</p>
+            <span>£29.99</span></a>
           </div>
         </div>
       </div>

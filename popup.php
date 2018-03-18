@@ -1,4 +1,4 @@
-<div class="cd-quick-view" id="viewProduct">
+<div class="cd-quick-view" id="viewProduct-1">
     <div class="overlaywhite"></div>
     <div class="cd-wrapper-all clearfix">
       <div class="cd-slider-wrapper">
@@ -19,15 +19,17 @@
 
       			<table class="variations" cellspacing="0">
           			<tbody>
+                        <tr><td class="label"><label for="color">Color</label></td></tr>
           									<tr>
-          						<td class="label"><label for="color">Color</label></td>
+
           						<td class="value">
           							<select id="color" class="" name="attribute_color" data-attribute_name="attribute_color" data-show_option_none="yes"><option value="">Choose an option</option><option value="Blue" class="attached enabled">Blue</option></select>						</td>
           					</tr>
+                            <tr><td class="label"><label for="pa_size">Size</label></td></tr>
           									<tr>
-          						<td class="label"><label for="pa_size">Size</label></td>
+
           						<td class="value">
-          							<select id="pa_size" class="" name="attribute_pa_size" data-attribute_name="attribute_pa_size" data-show_option_none="yes"><option value="">Choose an option</option><option value="m" class="attached enabled">M</option><option value="s" class="attached enabled">S</option></select><a class="reset_variations" href="#">Clear</a>						</td>
+          							<select id="pa_size" class="" name="attribute_pa_size" data-attribute_name="attribute_pa_size" data-show_option_none="yes"><option value="">Choose an option</option><option value="m" class="attached enabled">M</option><option value="s" class="attached enabled">S</option></select>						</td>
           					</tr>
           							</tbody>
           		</table>

@@ -3344,7 +3344,8 @@ Main components
       margin-bottom: 5px; }
     .product-information span input[type="number"], body .cd-quick-view .cd-item-info span input[type="number"], .product-information .label input[type="number"], body .cd-quick-view .cd-item-info .label input[type="number"], .product-information .quantity input[type="number"], body .cd-quick-view .cd-item-info .quantity input[type="number"] {
       border: 1px solid #d5d5d3;
-      padding: 6px 13px; }
+      padding: 6px 13px;
+      width: 90%; }
     .product-information span.color, body .cd-quick-view .cd-item-info span.color, .product-information .label.color, body .cd-quick-view .cd-item-info .label.color, .product-information .quantity.color, body .cd-quick-view .cd-item-info .quantity.color {
       margin-bottom: 15px; }
     .product-information span b, body .cd-quick-view .cd-item-info span b, .product-information .label b, body .cd-quick-view .cd-item-info .label b, .product-information .quantity b, body .cd-quick-view .cd-item-info .quantity b {
@@ -4061,6 +4062,8 @@ body .cd-quick-view {
   .homepage.memoirs_page.products_page .products_page-item {
     margin-bottom: 25px;
     text-align: center; }
+    .homepage.memoirs_page.products_page .products_page-item a:hover {
+      text-decoration: none; }
     .homepage.memoirs_page.products_page .products_page-item img {
       width: 100%;
       border: 14px solid #f5dc6a;

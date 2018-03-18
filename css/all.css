@@ -280,7 +280,7 @@ a {
         .section-filter__main--content .filter-item img {
           width: 100%;
           margin-bottom: 30px; }
-        .section-filter__main--content .filter-item p, .section-filter__main--content .filter-item a {
+        .section-filter__main--content .filter-item p, .section-filter__main--content .filter-item a, .section-filter__main--content .filter-item span {
           color: #000;
           font-family: 'GothamBold', cursive;
           font-size: 22px;
@@ -452,7 +452,7 @@ header .navbar-brand {
       font-size: 20px;
       color: #fff; }
 
-.welcomeBox {
+body.home .welcomeBox {
   background: url(../images/welcom-bg.png) no-repeat right center #f5dc6a;
   background-size: cover;
   font-size: 10px;
@@ -461,9 +461,9 @@ header .navbar-brand {
   -moz-transition: all .3s ease-out;
   position: relative;
   overflow: hidden; }
-  .welcomeBox.moveTop {
+  body.home .welcomeBox.moveTop {
     top: -100%; }
-  .welcomeBox h2 {
+  body.home .welcomeBox h2 {
     font-family: 'GothamBold', cursive;
     font-size: 6.809em;
     line-height: 1.1;
@@ -472,13 +472,13 @@ header .navbar-brand {
     color: #fff;
     padding-bottom: 0.329em;
     padding-top: 1.000em; }
-  .welcomeBox p {
+  body.home .welcomeBox p {
     font-family: 'GothamBold', cursive;
     font-size: 6.809em;
     line-height: 1.1;
     font-weight: normal;
     color: #fff; }
-  .welcomeBox a {
+  body.home .welcomeBox a {
     background: url(../images/arrow-down.png) no-repeat center;
     width: 51px;
     height: 26px;
@@ -488,7 +488,7 @@ header .navbar-brand {
     bottom: 20px;
     left: 50%;
     margin-left: -25px; }
-    .welcomeBox a.bounce {
+    body.home .welcomeBox a.bounce {
       -webkit-animation: bounce 2s infinite;
       -moz-animation: bounce 2s infinite;
       animation: bounce 2s infinite;
@@ -926,6 +926,19 @@ Main components
     font-size: 16px;
     font-size: 1rem;
     cursor: pointer; }
+  .product-information .woocommerce-variation-add-to-cart button.single_add_to_cart_button, body .cd-quick-view .cd-item-info .woocommerce-variation-add-to-cart button.single_add_to_cart_button {
+    background: #fd8204;
+    margin-top: 37px;
+    color: #fff;
+    font-family: 'GothamBook', Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.2;
+    padding: .6em 1.2em;
+    font-weight: normal;
+    text-align: left;
+    border-radius: 0;
+    border: none;
+    width: 76%; }
   .product-information h2, body .cd-quick-view .cd-item-info h2 {
     margin-bottom: 25px;
     font-family: 'GothamBold', cursive;
@@ -938,33 +951,50 @@ Main components
       font-size: 25px;
       line-height: 1.1;
       font-weight: normal; }
-  .product-information span, body .cd-quick-view .cd-item-info span {
+      .product-information h2 span span, body .cd-quick-view .cd-item-info h2 span span {
+        display: inline-block; }
+  .product-information span, body .cd-quick-view .cd-item-info span, .product-information .label, body .cd-quick-view .cd-item-info .label, .product-information .quantity, body .cd-quick-view .cd-item-info .quantity {
     font-family: 'GothamBook', cursive;
     font-size: 15px;
     line-height: 1.1;
     font-weight: normal;
-    display: block; }
-    .product-information span.color, body .cd-quick-view .cd-item-info span.color {
+    display: block;
+    padding-left: 0;
+    text-align: left;
+    color: #fd8204; }
+    .product-information span label, body .cd-quick-view .cd-item-info span label, .product-information .label label, body .cd-quick-view .cd-item-info .label label, .product-information .quantity label, body .cd-quick-view .cd-item-info .quantity label {
+      font-family: 'GothamBold', cursive;
+      font-size: 15px;
+      line-height: 1.1;
+      font-weight: normal; }
+    .product-information span input[type="number"], body .cd-quick-view .cd-item-info span input[type="number"], .product-information .label input[type="number"], body .cd-quick-view .cd-item-info .label input[type="number"], .product-information .quantity input[type="number"], body .cd-quick-view .cd-item-info .quantity input[type="number"] {
+      border: 1px solid #d5d5d3;
+      padding: 6px 13px; }
+    .product-information span.color, body .cd-quick-view .cd-item-info span.color, .product-information .label.color, body .cd-quick-view .cd-item-info .label.color, .product-information .quantity.color, body .cd-quick-view .cd-item-info .quantity.color {
       margin-bottom: 15px; }
-    .product-information span b, body .cd-quick-view .cd-item-info span b {
+    .product-information span b, body .cd-quick-view .cd-item-info span b, .product-information .label b, body .cd-quick-view .cd-item-info .label b, .product-information .quantity b, body .cd-quick-view .cd-item-info .quantity b {
       font-family: 'GothamBold', cursive;
       font-size: 15px;
       line-height: 1.1;
       font-weight: normal; }
   .product-information .cd-item-select, body .cd-quick-view .cd-item-info .cd-item-select {
-    width: 50%;
+    width: 65%;
     position: relative;
     margin-bottom: 37px; }
+    .product-information .cd-item-select table, body .cd-quick-view .cd-item-info .cd-item-select table {
+      width: 90%; }
     .product-information .cd-item-select span, body .cd-quick-view .cd-item-info .cd-item-select span {
       margin-bottom: 5px; }
-    .product-information .cd-item-select:after, body .cd-quick-view .cd-item-info .cd-item-select:after {
-      content: '';
-      width: 24px;
-      height: 14px;
-      background: url("../images/arrow-select.png") center no-repeat;
-      bottom: 8px;
-      right: 13px;
-      position: absolute; }
+    .product-information .cd-item-select td.value, body .cd-quick-view .cd-item-info .cd-item-select td.value {
+      position: relative; }
+      .product-information .cd-item-select td.value:after, body .cd-quick-view .cd-item-info .cd-item-select td.value:after {
+        content: '';
+        width: 24px;
+        height: 14px;
+        background: url("../images/arrow-select.png") center no-repeat;
+        top: 8px;
+        right: 13px;
+        position: absolute; }
     .product-information .cd-item-select select, body .cd-quick-view .cd-item-info .cd-item-select select {
       padding: 6px 13px;
       width: 100%;
@@ -975,7 +1005,8 @@ Main components
       font-weight: normal;
       -webkit-appearance: none;
       -moz-appearance: none;
-      appearance: none; }
+      appearance: none;
+      margin-bottom: 15px; }
       .product-information .cd-item-select select:focus, body .cd-quick-view .cd-item-info .cd-item-select select:focus {
         outline: none; }
   .product-information .cd-item-action, body .cd-quick-view .cd-item-info .cd-item-action {
@@ -1009,22 +1040,30 @@ Main components
     color: #999;
     padding-bottom: 16px; }
 
+.overlaywhite {
+  position: fixed;
+  width: 170%;
+  height: 170%;
+  top: -50%;
+  left: -50%;
+  z-index: 1; }
+
 body .cd-quick-view {
-  position: absolute;
-  top: 50%;
+  top: 0%;
   left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  /* IE 9 */
-  -webkit-transform: translate(-50%, -50%);
-  /* Safari */
+  transform: translate(-50%, 0%);
+  -ms-transform: translate(-50%, 0%);
+  -webkit-transform: translate(-50%, 0%);
   width: 90%;
   z-index: 99999;
   display: none;
-  position: fixed; }
+  position: absolute;
+  margin-top: 150px; }
   body .cd-quick-view .cd-wrapper-all {
     padding: 39px 42px;
     border: 8px solid #fd8204;
+    position: relative;
+    z-index: 2;
     background: #fff; }
   body .cd-quick-view .cd-slider-wrapper {
     width: 40%; }

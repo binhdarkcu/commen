@@ -406,19 +406,49 @@ Main components
     font-size: 16px;
     font-size: 1rem;
     cursor: pointer;
-  } 
+  }
+  .woocommerce-variation-add-to-cart {
+
+      button.single_add_to_cart_button{
+          background: #fd8204;
+          margin-top: 37px;
+            color: #fff;
+            font-family: 'GothamBook', Arial, sans-serif;
+            font-size: 15px;
+            line-height: 1.2;
+            padding: .6em 1.2em;
+            font-weight: normal;
+            text-align: left;
+            border-radius: 0;
+            border: none;
+            width: 76%;
+      }
+  }
   h2 {
     margin-bottom: 25px;
     @include GothamBold(25px);
     text-align: left;
     span {
         @include GothamBook(25px);
+        span{
+            display: inline-block;
+        }
     }
   }
 
-  span {
+  span, .label, .quantity{
     @include GothamBook(15px);
     display: block;
+    padding-left: 0;
+    text-align: left;
+    color: #fd8204;
+    label {
+        @include GothamBold(15px);
+    }
+    input[type="number"]{
+        border: 1px solid #d5d5d3;
+        padding: 6px 13px;
+    }
     &.color {
       margin-bottom: 15px;
     }
@@ -428,22 +458,28 @@ Main components
   }
 
   .cd-item-select {
-    width: 50%;
+    width: 65%;
     position: relative;
     margin-bottom: 37px;
+    table {
+        width: 90%;
+    }
     span{
         margin-bottom: 5px;
     }
-
-    &:after {
-      content: '';
-      width: 24px;
-      height: 14px;
-      background: url('../images/arrow-select.png') center no-repeat;
-      bottom: 8px;
-      right: 13px;
-      position: absolute;
+    td.value {
+        position: relative;
+        &:after {
+          content: '';
+          width: 24px;
+          height: 14px;
+          background: url('../images/arrow-select.png') center no-repeat;
+          top: 8px;
+          right: 13px;
+          position: absolute;
+        }
     }
+
 
     select {
       padding: 6px 13px;
@@ -453,6 +489,7 @@ Main components
       -webkit-appearance: none;
       -moz-appearance: none;
       appearance: none;
+      margin-bottom: 15px;
 
       &:focus {
         outline: none;
@@ -499,16 +536,31 @@ Main components
 
   }
 }
+
+.overlaywhite {
+    position: fixed;
+    width: 170%;
+    height: 170%;
+    top:-50%;
+    left:-50%;
+    z-index: 1;
+}
 body .cd-quick-view {
-  @include objAbsoluteMiddle();
+
+  top: 0%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    -ms-transform: translate(-50%, 0%);
+    -webkit-transform: translate(-50%, 0%);
   width: 90%;
   z-index: 99999;
   display: none;
-  position: fixed;
-
+  position: absolute;
+  margin-top: 150px;
   .cd-wrapper-all {
     padding: 39px 42px;
     border: 8px solid $orange;
+    position: relative;z-index: 2;
     background: #fff;
   }
 

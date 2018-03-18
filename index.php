@@ -23,7 +23,7 @@
                     <div class="filter-item">
                       <img src="images/filter-item.png" alt="">
                       <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh.</p>
-                      <a href="#">READ MORE</a>
+                      <span>READ MORE</span>
                     </div>
                   </div>
 
@@ -32,7 +32,7 @@
                     <div class="filter-item">
                       <img src="images/filter-item.png" alt="">
                       <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh.</p>
-                      <a href="#">READ MORE</a>
+                      <span>READ MORE</span>
                     </div>
                   </div>
 
@@ -41,7 +41,7 @@
                     <div class="filter-item">
                       <img src="images/filter-item.png" alt="">
                       <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh.</p>
-                      <a href="#">READ MORE</a>
+                      <span>READ MORE</span>
                     </div>
                   </div>
                 </div>

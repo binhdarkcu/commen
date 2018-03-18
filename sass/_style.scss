@@ -215,7 +215,7 @@ a{text-decoration: none;}
 		  margin-bottom: 30px;
 		}
 
-		p, a {
+		p, a, span {
 		  color: #000;
 		  @include GothamBold(22px);
 		}

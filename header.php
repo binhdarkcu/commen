@@ -35,7 +35,7 @@
 	<script src="js/class.SiteMain.js"></script>
 </head>
 
-<body class="home">
+<body class="">
 <!-- Navigation -->
 <header class="navbar-fixed-top">
     <nav class="navbar navbar-default">

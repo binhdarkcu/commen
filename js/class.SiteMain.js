@@ -9,17 +9,25 @@ var SiteMain = (function() {
 	function init(){
 		carousel_3d();
 		respone();
-		$('.welcomeBox').height($(window).height()- $('header nav').height())
-		$(window).resize(function(e) {
-		   respone();
-		});
-		if($('.welcomeBox').length > 0){
-			$('body').addClass('overflowHidden')
-			if($('.welcomeBox').height() > $('body')) {
+		if($('body').hasClass('home')) {
+			$('.welcomeBox').height($(window).height()- $('header nav').height())
+			$(window).resize(function(e) {
+			   respone();
+			});
+			if($('.welcomeBox').length > 0){
+				$('body').addClass('overflowHidden')
+				if($('.welcomeBox').height() > $('body')) {
 
+				}
 			}
+			animateHome();
+		} else {
+			$('.welcomeBox').hide()
 		}
-		animateHome();
+		$(window).scroll(function(){
+		       // $(".cd-quick-view")
+		       //        .animate({"marginTop": ($(window).scrollTop() + 50) + "px"}, 0 );
+		});
 	}
 
 	function animateHome(){
@@ -53,6 +61,7 @@ var SiteMain = (function() {
 	}
 	function openPopup(idDiv){
 		$('.result_question').css('display','none')
+		$(idDiv).css('margin-top',($(window).scrollTop() + 50) + "px");
 		$(idDiv).css({'visibility':'visible','display':'block'});
 	}
 	function closePopup(idDiv){
@@ -83,7 +92,7 @@ var SiteMain = (function() {
 			clickedCenter: function($clickedItem) {
 		      // $clickedItem is a jQuery wrapped object describing the image that was clicked.
 			  var productID = $($clickedItem).attr('data-id');
-			  openPopup('#viewProduct-'+ productID);
+			  openPopup('#viewProduct');
 		    }
 		}
 		var carousel = $("#carousel1").waterwheelCarousel(options)

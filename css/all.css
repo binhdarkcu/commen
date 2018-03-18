@@ -2625,11 +2625,13 @@ a {
   .section-filter.shopify {
     background: #fff; }
     .section-filter.shopify .section-filter__main--content .filter-item {
-      background: url(../images/shopifybg.png) no-repeat;
+      background: url(../images/shopifybg.png) no-repeat top center;
       border: none;
       min-height: 493px;
       position: relative;
-      padding-bottom: 90px; }
+      padding-bottom: 90px;
+      background-size: cover;
+      margin-bottom: 12px; }
     .section-filter.shopify .desc {
       padding: 0 10%;
       min-height: 110px; }

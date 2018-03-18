@@ -397,6 +397,8 @@ header .navbar-default {
       header .navbar-default .nav li a.cartIcon:hover {
         background: url("../images/cart-icon.png") no-repeat;
         background-size: 30px; }
+  header .navbar-default .nav li.current-menu-item a {
+    font-weight: bold; }
 header .navbar-brand {
   height: auto;
   padding-top: 0;
@@ -1217,6 +1219,16 @@ body .cd-quick-view {
   padding-bottom: 25px;
   /* Left Column */
   /* Product Color */ }
+  .productDetail .customcol3 {
+    width: 140px;
+    margin-right: 10px; }
+  .productDetail .customcol9 {
+    width: 517px; }
+  .productDetail .customcol8 {
+    width: 673px; }
+  .productDetail .customRightCol {
+    padding-left: 55px;
+    width: 390px; }
   .productDetail #carousel-custom .carousel-inner {
     position: relative;
     width: 100%;
@@ -1364,6 +1376,21 @@ body .cd-quick-view {
   display: table;
   margin: 65px auto 30px; }
 
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .productDetail .customcol3 {
+    width: 25%;
+    margin-right: 0;
+    float: left; }
+  .productDetail .customcol8 {
+    width: 66.66666667%;
+    float: left; }
+  .productDetail .customcol9 {
+    width: 75%;
+    float: left; }
+  .productDetail .customRightCol {
+    float: left;
+    width: 33.33333333%;
+    padding-left: 15px; } }
 @media screen and (min-width: 993px) and (max-width: 1024px) {
   .homepage #main-slide.carousel .carousel-inner .item .col-md-12 a.btn {
     font-size: 23px;
@@ -1391,6 +1418,27 @@ body .cd-quick-view {
   .homepage .carousel #carousel1 {
     width: 97%; } }
 @media screen and (min-width: 0) and (max-width: 767px) {
+  .homepage.memoirs_page.products_page .products_page-item {
+    width: 80%;
+    display: table;
+    margin: 0 auto 25px;
+    float: none; }
+
+  .productDetail .customcol3 {
+    width: 25%;
+    margin-right: 0;
+    float: left; }
+  .productDetail .customcol8 {
+    width: 100%;
+    float: left; }
+  .productDetail .customcol9 {
+    width: 75%;
+    float: left; }
+  .productDetail .customRightCol {
+    float: left;
+    width: 100%;
+    padding-left: 15px; }
+
   .contactPage .contactForm {
     width: 85%; }
     .contactPage .contactForm .contactRow input[type="text"] {
@@ -1400,7 +1448,8 @@ body .cd-quick-view {
 
   /* memoirs-page */
   .homepage.memoirs_page .section-filter__main--content .col-md-4 {
-    width: 50%; }
+    width: 80%;
+    float: none; }
 
   .homepage.memoirstitle_page .section-filter .row-2col img:first-of-type {
     margin-bottom: 30px; }
@@ -1521,7 +1570,7 @@ body .cd-quick-view {
 .homepage.memoirs_page.products_page {
   padding-bottom: 0; }
   .homepage.memoirs_page.products_page .section-filter__main--nav {
-    margn-bottom: 35px; }
+    margin-bottom: 35px; }
   .homepage.memoirs_page.products_page .products_page-item {
     margin-bottom: 25px;
     text-align: center; }

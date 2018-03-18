@@ -10,10 +10,10 @@
                 <li><a href="#">Shorts</a></li>
                 <li><a href="#">Accesories</a></li>
             </ul>
-              <div class="col-md-8 ">
+              <div class="col-md-8 customcol8">
                 <div id="carousel-custom" class="carousel slide left_img" data-ride="carousel">
                       <div class="row">
-                          <div class="col-md-3 noPaddingRight">
+                          <div class="col-md-3 noPaddingRight customcol3">
                               <ol class="carousel-indicators mCustomScrollbar meartlab">
                                 <li data-target="#carousel-custom" data-slide-to="0" class="active">
                                     <img src="images/product-detail-thumb.jpg" alt="" />
@@ -26,7 +26,7 @@
                                 </li>
                               </ol>
                           </div>
-                          <div class="col-md-9 paddingLeft5">
+                          <div class="col-md-9 paddingLeft5 customcol9">
                               <div class="carousel-outer">
                                 <!-- me art lab slider -->
                                 <div class="carousel-inner ">
@@ -47,7 +47,7 @@
 
                     </div>
               </div>
-              <div class="col-md-4">
+              <div class="col-md-4 customRightCol">
                   <div class="product-information">
                       <h2>COMMEN PURPLE<br/><span>£29.99</span></h2>
                       <span class="color"><b>Colour:</b> Purple</span>

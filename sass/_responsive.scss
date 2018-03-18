@@ -1,3 +1,25 @@
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+    .productDetail {
+        .customcol3 {
+            width: 25%;
+            margin-right: 0;
+            float: left;
+        }
+        .customcol8 {
+            width: 66.66666667%;
+            float: left;
+        }
+        .customcol9 {
+            width: 75%;
+            float: left;
+        }
+        .customRightCol {
+            float: left;
+            width: 33.33333333%;
+            padding-left: 15px;
+        }
+    }
+}
 @media screen and (min-width: 993px) and (max-width: 1024px) {
     .homepage {
         #main-slide.carousel {
@@ -63,6 +85,34 @@
 }
 
 @media screen and (min-width: 0) and (max-width: 767px) {
+    .homepage.memoirs_page.products_page {
+        .products_page-item {
+            width: 80%;
+            display: table;
+            margin: 0 auto 25px;
+            float: none;
+        }
+    }
+    .productDetail {
+        .customcol3 {
+            width: 25%;
+            margin-right: 0;
+            float: left;
+        }
+        .customcol8 {
+            width: 100%;
+            float: left;
+        }
+        .customcol9 {
+            width: 75%;
+            float: left;
+        }
+        .customRightCol {
+            float: left;
+            width: 100%;
+            padding-left: 15px;
+        }
+    }
     .contactPage {
         .contactForm {
             width: 85%;
@@ -80,7 +130,8 @@
     }
       /* memoirs-page */
     .homepage.memoirs_page .section-filter__main--content .col-md-4 {
-      width: 50%;
+      width: 80%;
+      float: none;
     }
     .homepage.memoirstitle_page {
 

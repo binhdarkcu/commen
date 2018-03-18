@@ -11,7 +11,7 @@
 				<p>Name</p>
 				<p>Email</p>
 				<p>&nbsp;</p>
-				<p>C Commen athletics 2018</p>
+				<p><i class="fa fa-copyright" aria-hidden="true"></i>Commen athletics 2018</p>
 			</div>
 			<div class="col-md-3 text-right col-xs-4 col-last customWidthLast">
 				<p><i class="fa fa-instagram" aria-hidden="true"></i>COMMEN_ATHLETICS</p>

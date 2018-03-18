@@ -1,47 +1,66 @@
 <?php include ('header.php') ?>
-<section class="section-filter" id="filter">
-    <h2>Memoirs</h2>
+<section class="section-filter shopify paddingBody">
     <div class="container">
       <div class="row">
         <div class="section-filter__main">
-          <div class="section-filter__main--nav">
-            <a href="#">All</a>
-            <a href="#">Trainning</a>
-            <a href="#">On tour</a>
-            <a href="#">Guest runing</a>
-          </div>
           <div class="section-filter__main--content clearfix">
 
             <!-- item -->
             <div class="col-md-4">
-              <div class="filter-item">
-                <img src="images/filter-item.png" alt="">
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh.</p>
-                <span>READ MORE</span>
-              </div>
+              <a href="#">
+                  <div class="filter-item">
+                    <h3>RUN FOREST RUN</h3>
+                    <div class="desc">
+                        <p>Something interesting to go here about the playlists running bangers, insert motivation bit about running and music and maybe a witty line to go here.</p>
+                    </div>
+                    <ul>
+                        <li>Example Song One</li>
+                        <li>Example Song Two</li>
+                        <li>Example Song Three</li>
+                    </ul>
+                    <span class="link">LINK ON SPOTIFY</span>
+                  </div>
+              </a>
             </div>
 
             <!-- item -->
             <div class="col-md-4">
-              <div class="filter-item">
-                <img src="images/filter-item.png" alt="">
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh.</p>
-                <span>READ MORE</span>
-              </div>
+                <a href="#">
+                    <div class="filter-item">
+                      <h3>PLAYLIST INIT</h3>
+                      <div class="desc">
+                          <p>Something interesting to go here about the playlists running bangers, insert motivation bit about running and music and maybe a witty line to go here.</p>
+                      </div>
+                      <ul>
+                          <li>Example Song One</li>
+                          <li>Example Song Two</li>
+                          <li>Example Song Three</li>
+                      </ul>
+                      <span class="link">LINK ON SPOTIFY</span>
+                    </div>
+                </a>
             </div>
 
             <!-- item -->
             <div class="col-md-4">
-              <div class="filter-item">
-                <img src="images/filter-item.png" alt="">
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh.</p>
-                <span>READ MORE</span>
-              </div>
+                <a href="#">
+                    <div class="filter-item">
+                      <h3>STEVES FAVOURITES</h3>
+                      <div class="desc">
+                          <p>Something interesting to go here about the playlists running bangers, insert motivation bit about running and music and maybe a witty line to go here.</p>
+                      </div>
+                      <ul>
+                          <li>Example Song One</li>
+                          <li>Example Song Two</li>
+                          <li>Example Song Three</li>
+                      </ul>
+                      <span class="link">LINK ON SPOTIFY</span>
+                    </div>
+                </a>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <a href="#" class="btn-style">See All</a>
 </section>
 <?php include ('footer.php') ?>

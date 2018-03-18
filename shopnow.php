@@ -3,18 +3,7 @@
       <div class="row">
         <div class="carousel-container">
             <div id="carousel1">
-              <div class="carousel-item">
-                <a href="javascript:void(0)"><img class="carousel-image" alt="Image Caption" src="images/product1.jpg"></a>
-              </div>
-              <div class="carousel-item">
-                <a href="javascript:void(0)"><img class="carousel-image" alt="Image Caption" src="images/product1.jpg"></a>
-              </div>
-              <div class="carousel-item">
-                <a href="javascript:void(0)"><img class="carousel-image" alt="Image Caption" src="images/product1.jpg"></a>
-              </div>
-              <div class="carousel-item">
-                <a href="javascript:void(0)"><img class="carousel-image" alt="Image Caption" src="images/product1.jpg"></a>
-              </div>
+
               <div class="carousel-item">
                 <a href="javascript:void(0)"><img class="carousel-image" alt="Image Caption" src="images/product1.jpg"></a>
               </div>

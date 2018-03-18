@@ -49,7 +49,7 @@
 
           	</form>
           </div>
-          
+
           <div class="cd-item-description">
             <h3 class="item-title">Product Details</h3>
             <p>This is one of our running shirts.<br/>We searched the globe for our favourite technical fabrics.

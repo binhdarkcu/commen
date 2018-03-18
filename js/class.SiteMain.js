@@ -92,7 +92,7 @@ var SiteMain = (function() {
 			clickedCenter: function($clickedItem) {
 		      // $clickedItem is a jQuery wrapped object describing the image that was clicked.
 			  var productID = $($clickedItem).attr('data-id');
-			  openPopup('#viewProduct');
+			  openPopup('#viewProduct-'+ productID);
 		    }
 		}
 		var carousel = $("#carousel1").waterwheelCarousel(options)

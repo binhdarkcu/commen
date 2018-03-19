@@ -7,6 +7,7 @@ var SiteMain = (function() {
    }
 
 	function init(){
+		signUpEvent();
 		carousel_3d();
 		respone();
 		if($('body').hasClass('home')) {
@@ -59,6 +60,17 @@ var SiteMain = (function() {
 		separation = 160
 		flankingItems = 2
 	}
+
+	function signUpEvent(){
+		$('.signupBox .btn-button').click(function(){
+			$('#signUp').css({'visibility':'visible','display':'block'});
+			return false;
+		});
+		$('.signup .overlaywhite').click(function(){
+			$('#signUp').css({'visibility':'hidden','display':'none'});
+		});
+	}
+
 	function openPopup(idDiv){
 		$('.result_question').css('display','none')
 		$(idDiv).css('margin-top',($(window).scrollTop() + 50) + "px");

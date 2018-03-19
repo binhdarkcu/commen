@@ -1,5 +1,5 @@
 /*Contact*/
-.contactPage {
+.contactPage, .formStyle {
 	&.section-filter{
 		min-height: 798px;
         padding-top: 60px;
@@ -11,7 +11,7 @@
         color: #ff8300;
         padding-bottom: 35px;
     }
-    .contactForm {
+    .contactForm, .form {
         width: 835px;
         display: table;
         margin: 0 auto;
@@ -29,7 +29,7 @@
                 position: relative;
                 top: -1px;
             }
-            input[type="text"] {
+            input[type="text"], input[type="password"] {
                 @include GothamBook(15px);
                 color: #ff8300;
                 height: 25px;
@@ -38,6 +38,9 @@
                 outline: none;
                 width: 90%;
             }
+			input[type="password"] {
+				width: 70%;
+			}
             &.subject {
                 input[type="text"] {
                     width: 70%;
@@ -60,6 +63,7 @@
                     color: #ff8300;
                 }
             }
+
         }
         input[type="submit"] {
             color: #fff;

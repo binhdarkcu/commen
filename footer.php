@@ -20,3 +20,4 @@
 		</div>
 	</div>
 </footer>
+<?php include('signup.php')?>

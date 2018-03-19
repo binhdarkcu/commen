@@ -1,6 +1,6 @@
 <?php include('header.php')?>
-<div class="contactPage paddingBody section-filter">
-    <div class="contactForm">
+<div class="contactPage formStyle paddingBody section-filter">
+    <div class="contactForm form">
         <h3>Hey there, what can <br/>we help you with today?</h3>
         <form method="" action="">
             <div class="contactRow">

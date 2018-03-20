@@ -72,7 +72,7 @@
                         <a class="page-scroll" href="contact.php">TALK TO ME</a>
                     </li>
                     <li class="visible-1024">
-                        <a class="cartIcon" href="#"></a>
+                        <a class="cartIcon" href="cart.php"></a>
                     </li>
                 </ul>
             </div>
